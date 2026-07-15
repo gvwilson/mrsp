@@ -101,7 +101,7 @@ The list above is intimidating,
 and very few projects do everything in it.
 Rather than overwhelming yourself,
 discuss it with the team and pick one thing to implement first.
-The change that usually pays off most quickly fastest is branch protection,
+The change that usually pays off fastest is branch protection,
 i.e.,
 requiring at least one review before merge.
 This catches lots of accidental mistakes
@@ -157,7 +157,7 @@ After the API key incident,
 Jess added `git-secrets` to the repository's pre-commit hooks
 and wrote a two-paragraph credential policy in `CONTRIBUTING.md`.
 She then did a compliance check on the rest of the project
-andfound that the simulator processed GPS location data from wildlife collars
+and found that the simulator processed GPS location data from wildlife collars
 that had been provided by a government agency under a data sharing agreement
 that she had never read.
 It turned out there were restrictions on redistribution
@@ -189,7 +189,7 @@ Asking a search engine or an LLM is not the same as asking any of them.
 -   Negative:
     Contributors increasingly use LLMs to fill out PR checklists,
     answering "yes, I tested this" because the LLM suggested it
-    rather than because they ran  enthe tests.
+    rather than because they ran the tests.
     A  checklist item that can be answered by an LLM without actually being run
     is not a safety check: it's theater.
 
