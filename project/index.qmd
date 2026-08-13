@@ -1,0 +1,172 @@
+---
+subtitle: "knowing who is doing what and what is in their way"
+---
+
+# Managing the Work
+
+::: {.callout-note title="Learning Objectives"}
+
+
+-   Set up a lightweight tracking system for a small team.
+-   Write a status update that makes blockers visible.
+
+:::
+
+## Before
+
+Jess held her first sprint planning meeting with Tahia and Ren six weeks into the post-doc.
+She had a list of fourteen open GitHub issues and a whiteboard.
+Two hours later they had agreed on a prioritized set of work for the next three weeks.
+The following Monday,
+Jess asked each of them what they were working on.
+Tahia was working on a {{< g refactoring "refactoring" >}} she had decided was necessary,
+but which wasn't on the list.
+Ren was working on her first item
+but had been stuck for two days on a dependency issue he hadn't mentioned
+because he hadn't wanted to look like he couldn't handle it.
+
+## Knowing Who Is Doing What
+
+Project management at Jess's scale is not Gantt charts.
+It is knowing who is working on what and what is in their way.
+As [@Fournier2017] says,
+the manager's job is to remove obstacles,
+not to assign tasks.
+The planning meeting matters less than the Monday morning check-in
+that reveals that someone is stuck.
+
+The three-column status update makes blockers visible
+without requiring a long meeting to surface them.
+Before the meeting,
+everyone writes *and shares* bullet points explaining:
+
+-   *Progress*: what they finished since last time
+-   *Plans*: what they will finish before next time
+-   *Problems*: what is blocking them (or might)
+
+Progress and Plans are read; the meeting discusses Problems.
+If the project's leader can't resolve a problem,
+it is their responsibility to escalate it.
+
+::: {.callout-note}
+
+This format only works if "Problems" is [psychologically safe](../safety/index.qmd) to fill in honestly.
+If people think admitting a blocker will be treated as evidence of incompetence,
+they'll leave it blank,
+and the manager will find out two weeks later.
+
+:::
+
+Issues work as a to-do list when each one has an assignee, a milestone, and a time estimate.
+"Someday/maybe" items get a backlog label,
+not a slot in the active milestone.
+Issues are closed when the work is done,
+not when the pull request is merged.
+The issue tracker is the record of what the team decided to do;
+the PR history is the record of what they actually built.
+
+::: {.callout-note}
+
+Issues that have not been triaged are a signal that no one is running the project.
+Once a week (at least),
+go through all newly-filed issues and assign each a category and a priority
+(even if that priority is "not on the roadmap").
+
+:::
+
+::: {.callout-note}
+
+Nobody is good at estimating how long things will take
+until they have done it for a while
+*and* kept track of how accurate their estimates were.
+People also often need to tune their estimates when they move from one project to another.
+As a manager,
+you should make this explicit:
+the first few times they give estimates are for learning,
+and only after that do you start to ask, "Didn't you say you'd be done by now?"
+
+:::
+
+## Cutting
+
+Cutting scope always feels like failure,
+but deferring the cut almost always costs more than the cut itself.
+If you have a feature that is 80% done at the end of a sprint and it is blocking a release,
+the options are to delay the release,
+ship with something that is known to be incomplete,
+or cut the feature.
+None of these feels good,
+but deciding to cut two weeks after you should have is always more expensive.
+
+::: {.callout-note}
+
+LLMs make it easy to generate more features and more options,
+which makes the work of cutting harder
+because saying "no" is not automated.
+
+:::
+
+::: {.callout-note}
+
+A task can overshoot because the original estimate was wrong (common and acceptable)
+or because decided to solve a related problem along the way (a choice).
+The second kind of change should trigger a conversation,
+not because it is necessarily wrong to do the extra work,
+but because a planning decision that affects other items in the schedule should be made explicitly.
+If you always insist on sticking to the schedule,
+people will probably start burying extra work
+(i.e., doing it anyway but not telling you that it's happening).
+
+:::
+
+## After
+
+Jess instituted two changes after the sprint planning failure.
+First,
+she asked everyone to write a three-column status update in a shared document by 9:30 am on Monday.
+Second, she labeled Ren's blocker immediately as "needs external help"
+and spent thirty minutes on the dependency issue with him before her next meeting.
+He had been stuck for two days on something that took thirty minutes to resolve
+because she hadn't known to look.
+
+## What About AI?
+
+-   Positive:
+    LLM-assisted sprint planning tools can estimate issue complexity from the code changes required
+    and flag when an issue has hidden dependencies that weren't mentioned in the ticket.
+    This cal reduce "two hours of work takes two days" problem.
+
+-   Negative:
+    LLM task management tools optimize for issues closed and PRs merged,
+    not for correctness or long-term maintainability.
+    A team that lets an LLM prioritize its backlog will be nudged toward closing many small issues
+    rather than addressing a few deep architectural problems
+    because the former produces more visible output.
+
+## Exercises
+
+
+### Write a Status Update (8 min)
+
+Write one three-column status update for yourself,
+then swap with a partner.
+Read their Problems column and identify one thing you could do to help.
+
+
+
+### Set Up a Milestone (7 min)
+
+Prompt the LLM with something like this:
+
+> Given these open issues in my project [paste 5-8 real issue titles],
+> help me create a four-week milestone.
+> Assign each to either the milestone or a backlog.
+> For each milestone issue, estimate the effort in hours and identify dependencies.
+
+1.  Note which assignments the LLM got wrong
+    because it doesn't know your project's history or your team's actual capacity.
+
+1.  Open your project's issue tracker.
+    Create a milestone ending four weeks from today.
+    Move or create 3-5 issues into it, each with an assignee and a time estimate.
+    Flag any "in progress" issue with no recent activity as "stalled."

@@ -2,7 +2,7 @@
 
 Contributions are very welcome;
 please contact us [by email][email] or by filing an issue in [our repository][repo].
-All contributors must abide by our [Code of Conduct](@/conduct/).
+All contributors must abide by our Code of Conduct.
 
 ## Contributors
 
@@ -14,43 +14,32 @@ Thanks to:
 
 -   Daniel Standage for helping create the original workshop
 -   Karl Fogel for *[Producing Open Source Software][producing-oss]*
--   Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, and Charlotte Wickham for *[Research Software Engineering with Python][py-rse]*
--   Everyone cited in the bibliography
+-   Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, and Charlotte Wickham
+    for *[Research Software Engineering with Python][py-rse]*
 
 ## Setup and Operation
 
--   Install [uv][uv].
--   Create a virtual environment by running `uv venv --python 3.12` in the root directory.
--   Activate it by running `source .venv/bin/activate` in your shell.
--   Install dependencies by running `uv sync`.
--   This project uses [McCole][mccole] to generate HTML and check the project's structure
+-   Install [Quarto][quarto] to build the site.
 -   Run `make` on its own to see a list of common commands
 
-| make task | effect                            |
-| --------- | ----------------------------------|
-| build     | render HTML pages                 |
-| clean     | clean up                          |
-| commands  | show available commands (default) |
-| links     | check links in published site     |
-| lint      | check structure and content       |
-| serve     | serve generated HTML              |
+| make task | effect                              |
+| --------- | ------------------------------------|
+| site      | render HTML pages                   |
+| serve     | preview the site locally            |
+| check     | check structure, spelling, and links|
+| bib       | validate the bibliography           |
+| clean     | remove generated and cache files    |
 
 ## Structure
 
--   Lessons are in `nn_slug` directories
-    -   `nn` is two-digit sequence number
-    -   `slug` is short mnemonic
-    -   Each lesson must have an `index.md` file containing its content
+-   Lessons are in `slug` directories (e.g., `intro/`, `health/`)
+    -   Each lesson has an `index.qmd` file containing its content
 -   Diagrams should be SVG files created with [draw.io][draw-io]
--   `bibliography.md` has the bibliography as a definition list
-    -   Citation keys have IDs for linking
-    -   Use an inline HTML link `b:key` in files to create links
--   `glossary.md` has the glossary as definition list
-    -   Reference keys have IDs for linking
-    -   Use an inline HTML link `g:key` in files to create links
--   The `static` directory contains static files
--   The `templates` directory contains [Jinja][jinja] templates used to generate HTML
-    -   `page.html`: template for website pages
+-   `bibliography/references.bib` holds the bibliography in BibTeX format
+    -   Cite entries with `[@Key]` (e.g., `[@Aurora2019]`)
+-   `glossary/index.qmd` holds the glossary as a definition list
+    -   Reference terms with `{{< g key "display text" >}}`
+-   `_quarto.yml` configures the book and chapter order
 
 ## FAQ
 
@@ -69,7 +58,8 @@ Why is this material free to read?
 
 [draw-io]: https://www.drawio.com/
 [email]: mailto:gvwilson@third-bit.com
-[jinja]: https://jinja.palletsprojects.com/
-[mccole]: https://pypi.org/project/mccole/
+[producing-oss]: https://producingoss.com/
+[py-rse]: https://third-bit.com/py-rse/
+[quarto]: https://quarto.org/
 [repo]: https://github.com/gvwilson/mrsp
-[uv]: https://github.com/astral-sh/uv
+[wilson-greg]: https://third-bit.com/

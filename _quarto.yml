@@ -1,0 +1,56 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Managing Research Software Projects"
+  author: "Greg Wilson"
+  repo-url: "https://github.com/gvwilson/mrsp"
+  repo-actions: [edit, source, issue]
+  chapters:
+    - index.qmd
+    - intro/index.qmd
+    - health/index.qmd
+    - checklist/index.qmd
+    - newcomers/index.qmd
+    - governance/index.qmd
+    - marketing/index.qmd
+    - requirements/index.qmd
+    - hirefire/index.qmd
+    - performance/index.qmd
+    - project/index.qmd
+    - finale/index.qmd
+    - upward/index.qmd
+    - safety/index.qmd
+    - lifecycle/index.qmd
+    - career/index.qmd
+    - remote/index.qmd
+    - burnout/index.qmd
+    - politics/index.qmd
+  appendices:
+    - license/index.qmd
+    - conduct/index.qmd
+    - contributing/index.qmd
+    - bibliography/index.qmd
+    - glossary/index.qmd
+    - retro/index.qmd
+    - process/index.qmd
+    - conflict/index.qmd
+    - security/index.qmd
+    - perfreview/index.qmd
+
+bibliography: bibliography/references.bib
+csl: bibliography/apa.csl
+
+filters:
+  - bin/links.lua
+
+shortcodes:
+  - bin/g.lua
+  - bin/inc-noh1.lua
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+

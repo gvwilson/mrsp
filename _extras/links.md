@@ -1,7 +1,10 @@
 [black]: https://black.readthedocs.io/
 [closure-workshop]: https://third-bit.com/closure/
+[covenant]: https://www.contributor-covenant.org/
 [coverage]: https://coverage.readthedocs.io/
 [datadryad]: https://datadryad.org/
+[draw-io]: https://www.drawio.com/
+[email]: mailto:gvwilson@third-bit.com
 [flake8]: https://flake8.pycqa.org/
 [gh]: https://github.com/
 [github-mvg]: https://github.com/github/MVG
@@ -17,6 +20,9 @@
 [producing-oss]: https://producingoss.com/
 [pytest]: https://docs.pytest.org/
 [py-rse]: https://third-bit.com/py-rse/
+[quarto]: https://quarto.org/
+[repo]: https://github.com/gvwilson/mrsp
 [stack]: https://stackoverflow.com/
+[uv]: https://github.com/astral-sh/uv
 [wilson-greg]: https://third-bit.com/
 [zenodo]: https://zenodo.org/

@@ -1,0 +1,94 @@
+---
+subtitle: "long enough to finish something, short enough to be concrete"
+---
+
+# The Next 90 Days
+
+::: {.callout-note title="Learning Objectives"}
+
+
+-   Write a 90-day plan with three concrete priorities.
+-   Know what to read next.
+
+:::
+
+## Planning at the Right Timescale
+
+Ninety days is the right planning horizon for a project at Jess's scale:
+it's long enough to finish something substantial and short enough to be concrete.
+Three kinds of work must appear in the plan.
+The first is development of new features.
+The second is maintenance,
+including bug fixes, pull request reviews, answering user questions,
+dependency updates, and compliance reviews.
+This work is invisible until it isn't done,
+and it will reliably consume all available time if it isn't explicitly allocated.
+
+The third kind of work is getting support for future work,
+which usually means writing impact summaries and grant proposals.
+This tutorial doesn't cover the second,
+but it's worth remembering that
+funders and administrators usually make resource decisions based on impact,
+not on elegant design.
+
+## Jess's Situation
+
+Jess's first 90-day plan had five priorities,
+none of which could realistically be finished in that time.
+She wrote a second plan with three priorities,
+each with a clear definition of done.
+Her supervisor read it and asked,
+"What's the first thing you'll do on Monday morning for each of these?"
+Jess couldn't answer for the third one,
+so she replaced it with something smaller.
+
+::: {.callout-note}
+
+"What's the first thing you'll do on Monday morning?"
+is the most useful question you can ask about any goal.
+If you can't answer it,
+the goal is too vague.
+"Work on the documentation" is not well defined;
+"write the installation guide section for users on Windows, starting with the GDAL dependency"
+is more likely to get done.
+
+:::
+
+## Exercises
+
+
+### Draft Your 90-Day Plan (12 min)
+
+Prompt the LLM like this:
+
+> Based on this project health audit [paste rubric from Session 1]
+> and these open issues [paste items from your project],
+> create a 90-day plan with three concrete priorities.
+> For each, explain what will be done, how I will know it's done,
+> and what could prevent it from being completed.
+
+1.  Note any priority the LLM suggested that you know won't happen
+    because of a constraint it doesn't know,
+    such as a funding gap,
+    lack of team capacity,
+    or an external deadline.
+1.  Make a list of two people you need to talk to
+    (either by name or by role)
+    and what you need.
+
+
+
+### Monday Morning Test (8 min)
+
+In pairs:
+
+1.  Read one priority from your plan to your partner.
+1.  Tell them what the first thing you'll do on Monday morning is.
+1.  Ask them for feedback on whether your description is specific enough.
+
+
+
+### Wrap-up (5 min)
+
+1.  What is the single most useful thing you learned or produced today?
+2.  What was included that you don't think you'll use?
