@@ -4,7 +4,6 @@ project:
 
 book:
   title: "Managing Research Software Projects"
-  author: "Greg Wilson"
   repo-url: "https://github.com/gvwilson/mrsp"
   repo-actions: [edit, source, issue]
   chapters:

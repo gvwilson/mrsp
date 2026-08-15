@@ -1,23 +1,27 @@
-# Managing Research Software Projects - build tasks.
+.PHONY: commands site serve check bib clean
 
-.PHONY: site serve check bib clean
+## commands: show available commands (*)
+commands:
+	@grep -h -E '^##' ${MAKEFILE_LIST} \
+	| sed -e 's/## //g' \
+	| column -t -s ':'
 
-site:            ## render HTML with Quarto
+## site: render HTML with Quarto
+site:
 	quarto render
 	touch docs/.nojekyll
 
-serve:           ## preview the site locally
+## serve: preview the site locally
+serve:
 	quarto preview
 
-check:           ## check structure, spelling, and internal links
+## check: check structure, spelling, and internal links
+check:
 	quarto check
 	typos
 	lychee docs --offline --no-progress
 
-bib:             ## validate the bibliography against citations
-	python3 bin/check_bib.py
-
-clean:           ## remove generated and cache files
+## clean: remove generated and cache files
+clean:
 	rm -rf .quarto _book
 	find . -type f -name '*~' -delete
-	find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
