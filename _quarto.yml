@@ -39,7 +39,7 @@ book:
     - perfreview/index.qmd
 
 bibliography: bibliography/references.bib
-csl: bibliography/mccole.csl
+csl: _extras/book.csl
 
 filters:
   - _bin/links.lua
