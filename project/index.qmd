@@ -65,6 +65,14 @@ not when the pull request is merged.
 The issue tracker is the record of what the team decided to do;
 the PR history is the record of what they actually built.
 
+Research artifacts belong in the same tracker.
+Datasets that need cleaning,
+figures that need to be redrawn,
+or a draft of the methods section of a paper
+are all work with owners and dependencies.
+If they live only in someone's head,
+the manager can't manage them.
+
 ::: {.callout-note}
 
 Issues that have not been triaged are a signal that no one is running the project.

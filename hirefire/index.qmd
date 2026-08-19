@@ -39,6 +39,8 @@ The basics that frequently get skipped:
     Rules change, and "I didn't know" is not a defense.
 -   Always post positions publicly,
     even if you think you already know who you want.
+    Post to the communities where RSEs actually look,
+    such as national RSE associations..
 -   Publish a salary band before applications open.
     Negotiating from a blank slate advantages whoever is least worried about asking for more.
 -   Describe the actual job:
@@ -64,7 +66,9 @@ A better alternative to whiteboard problems is a work sample:
 give candidates a small, realistic task similar to what the job actually involves,
 and pay them for their time.
 It surfaces relevant skills and signals that you respect people's time.
-
+Good work samples mirror what the job actually involves:
+reproducing a result from a published paper using the project's code,
+or refactoring a paper's analysis script so it runs cleanly and its figures are reproducible.
 If that isn't an option,
 give candidates a debugging exercise rather than asking them to write code from scratch.
 Most people spend more time debugging than writing new code,

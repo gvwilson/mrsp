@@ -44,6 +44,11 @@ It means making the project's health independent of any individual's continued p
 The [closure workshop](@closure-workshop) covers this in depth;
 the minimum version for an ongoing project is three things:
 
+Grant cycles give succession planning a natural calendar.
+A two-year award ends on a fixed date,
+so if the postdoc who built the software is departing then,
+the project has a firm deadline for preservation work.
+
 A shared credentials document
 :   Every account, service, and resource the project depends on
     must be stored in a password manager that at least two people can access.

@@ -60,6 +60,19 @@ Trust without familiarity
     A new contributor who gets good code review feedback on their first three PRs
     will contribute more than one who gets silence or generic approval.
 
+Data-access constraints
+:   Research data often travels less freely than code
+    because of data-use agreements (and occasionally export controls),
+    so a contributor in another country may be able to read the code
+    but not the data it requires.
+    Plan for synthetic or openly licensed stand-in data so distributed contributors aren't blocked.
+
+Seasonal absences
+:   Research teams have predictable busy seasons due to teaching commitments,
+    fieldwork, and conference seasons.
+    These may not line up across institutions,
+    but can be planned around.
+
 ## What Async-First Means in Practice
 
 Async-first does not mean "no meetings".

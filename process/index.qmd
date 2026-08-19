@@ -65,6 +65,10 @@ Separate feature work from maintenance.
 :   Reserve part of each sprint for bug fixes, documentation, and technical debt.
     If you don't, these accumulate until they dominate everything else.
 
+Count non-coding work as work.
+:   Writing papers, teaching, attending conferences, and reviewing are not "extra".
+    They are part of the job, and if they aren't in the plan, the plan is fiction.
+
 Add a buffer.
 :   Unplanned work always arrives. Someone files an urgent bug report. A
     collaborator needs help running the code. Leave slack in the schedule rather
@@ -98,3 +102,8 @@ be in January" is useful information. The same news delivered on October 30 is
 not. Real users and collaborators will respect the honesty if it gives them time
 to plan around it. They will not respect a release that includes a broken version
 of a feature you promised.
+
+A negative result can also legitimately invalidate a sprint plan.
+If the experiment the sprint was built around shows that the approach doesn't work,
+the right response is to stop and write that up,
+not to keep grinding through the original plan.

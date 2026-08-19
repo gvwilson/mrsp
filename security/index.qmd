@@ -93,6 +93,12 @@ Encrypt sensitive data at rest and in transit.
 :   Cloud storage is not encrypted by default on most platforms. Check your
     configuration. Use HTTPS for anything transmitted over a network.
 
+De-identification is harder than it looks.
+:   Removing names and identifiers from health data does not make it anonymous:
+    dates of service, rare diagnoses, and postal codes can be combined
+    to re-identify individuals.
+    Treat "de-identified" data as sensitive unless an expert has confirmed otherwise.
+
 Know your institution's requirements.
 :   IRB approvals, data use agreements, and export control rules may constrain
     where data can be stored and who can access it. These are legal obligations,

@@ -50,6 +50,11 @@ It needs to say:
 -   What kinds of contributions are and aren't welcome
 -   How to submit a pull request and what happens next
 -   Who to contact when stuck, and a realistic response time
+-   Where to obtain the data the software operates on,
+    and the terms under which it can be used
+-   How to reproduce the computing environment
+-   How to cite the project
+    (the `CITATION.cff` file and the DOI to use in papers)
 
 A `CONTRIBUTING.md` that contains aspirational language about community values,
 instructions that assume a specific operating system or Python version,

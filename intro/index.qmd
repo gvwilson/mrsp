@@ -7,6 +7,8 @@ but research software is different in several important ways:
 1.  Contributors are usually users, and volunteers rather than employees.
 1.  Project life cycles are tied to grant cycles.
 1.  The definition of "done" is shaped by publication rather than revenue.
+    In particular, a feature is finished when it shows up in a publication,
+    not when a pull request is merged.
 
 This workshop introduces the ideas and tools you need
 to manage a team of up to a dozen people working together to build research software.

@@ -91,6 +91,14 @@ the second helps ensure that you've actually read it.
 
 :::
 
+Research software teams should be especially careful about the metrics they use.
+Commit counts and lines of code don't matter;
+what does is "what result did this work enable?"
+The problem,
+of course,
+is connecting day-to-day work with figures in papers that may not be published for months,
+or a code fix today that allows another group run an analysis a year from now.
+
 A few things can make annual reviews more useful and less painful:
 
 -   Write down expectations before the review period starts, not during it.

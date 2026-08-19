@@ -100,9 +100,9 @@ and need to see whether it is worth their time.
 ## Where to Go and What to Count
 
 Researchers find software in many different places.
-JOSS, Zenodo, rOpenSci, PyOpenSci, and other registries
-are dedicated to findability and shareability,
-as are preprint servers like arXiv and its domain-specific offspring.
+These days,
+preprint servers like [arXiv](@arxiv) are usually their first stop,
+so a preprint or software paper is marketing that reaches the right audience by default.
 Mailing lists (for the older generation)
 and Slack, Discord, and Zulip communities (for younger folks) are less formal,
 as are podcasts, conference posters, and short talks.
@@ -110,15 +110,13 @@ The form of the pitch changes by channel:
 a JOSS submission is more structured than a lightning talk at a conference,
 which in turn needs to be more carefully thought out than a Discord post about a new release.
 
-Citation counts in Google Scholar,
-downloads on PyPI or conda-forge,
-stars and forks on GitHub,
-and questions on the project's issue tracker are imperfect but useful signals.
-Pick two that are relevant to your domain,
-check them on the same day each month,
-and save the numbers in your project repository:
-sooner or later,
-you'll be glad you have them.
+The signal that matters most for research software
+is being mentioned or cited in papers.
+Track these through preprint servers and citation indexes,
+and check them at the start or end of each month.
+Downloads and GitHub stars are secondary
+(stars measure curiosity, not use),
+so don't mistake them for adoption.
 
 ## After
 

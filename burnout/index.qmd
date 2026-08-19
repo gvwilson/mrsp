@@ -94,6 +94,24 @@ If the answer is yes, the person doing the work is probably not the problem.
 
 :::
 
+## Research-Specific Burnout Drivers
+
+Research environments add drivers that generic overload doesn't capture:
+
+Grant deadlines
+:   The end of a grant is a fixed, immovable crunch that recurs on a schedule.
+    People work unsustainable hours not because the work demands it,
+    but because the deadline is the last chance to show progress before renewal.
+
+Publication pressure
+:   A manuscript under review creates a second, parallel deadline
+    that doesn't respect the sprint board.
+
+Postdoc job-search precarity
+:   Team members on fixed-term contracts are simultaneously doing project work
+    and searching for their next position.
+    The job search doesn't pause when the project is in a crunch.
+
 ## What Managers Can Do
 
 -   Make maintenance work visible.
@@ -104,6 +122,10 @@ If the answer is yes, the person doing the work is probably not the problem.
 -   Create explicit permission to not respond after hours.
     If you send emails at 11pm,
     your team will feel pressure to respond at 11pm even if you tell them they don't have to.
+-   Plan for the end-of-grant crunch explicitly.
+    When a grant's final report or renewal is approaching,,
+    agree with the team in advance what will *not* be done,
+    so the deadline doesn't become a license for everyone to work weekends.
 -   Check in about workload, not just work.
     "How are things going?" is not a workload check.
     "Is the amount of work you have right now sustainable?" is.

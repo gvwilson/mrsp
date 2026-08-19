@@ -70,6 +70,18 @@ If you don't give them that information, they'll make decisions without it.
 
 :::
 
+::: {.callout-note}
+
+When your manager is a PI,
+the impacts they act on are grants, tenure, publications, and the lab's reputation.
+"That feature would take three weeks" doesn't move a PI;
+"building it means our next proposal goes in without a paper to cite" does.
+Funder deadlines and renewal cycles are the forcing function:
+anchor every trade-off to the next of these,
+and express it in terms of what the PI's next review will show.
+
+:::
+
 ## After
 
 Jess started keeping a one-page "capacity document" that listed the team's current commitments

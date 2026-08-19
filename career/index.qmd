@@ -53,16 +53,17 @@ but some dimensions are consistent:
     that makes the person more valuable to the research community.
 -   Technical breadth: learning adjacent skills like DevOps, data engineering, and visualization
     that expand what the team can do.
--   Community presence: publishing software papers, giving conference talks,
-    contributing to standards bodies, and mentoring others
-    all that make someone's expertise visible outside the lab.
+-   Community presence such as co-authorship on software papers
+    and conference talks that make someone's expertise visible outside the lab.
 -   Institutional influence: serving on committees, advising students, and shaping policies
     build the kind of standing that leads to more autonomy and better conditions.
 
 A useful career conversation covers two things:
 where the person wants to be in two to three years (concrete enough to plan toward)
 and what the project can offer toward that goal.
-The second part requires honesty.
+Anchor the conversation in artifacts a promotion committee can be shown,
+especially because many promotion committees still don't know how to weigh software contributions.
+The part about what the project can offer requires honesty.
 If the project can't offer authorship, say so.
 If it can offer a conference talk or a software paper, offer it explicitly.
 

@@ -122,9 +122,15 @@ Data privacy
 
 Ethics review
 :   Software that collects or processes data about human subjects may
-    require ethics board approval even if the software is just a
-    tool. Your institution's review board, not a web search, is the
-    right place to ask. Not asking is not a defense.
+    require approval from your institution's ethics review board even
+    if the software is just a tool.  Not asking about this is not a
+    defense if something goes wrong.
+
+Data-use agreements
+:   Data obtained under a data-use agreement or data sharing agreement
+    may restrict who may see it, where it may be stored, and whether
+    it may be redistributed. As with ethics review, not asking about
+    this is no defense.
 
 Secrets in version control
 :   API keys, passwords, and personal data committed to git are not

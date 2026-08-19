@@ -18,7 +18,6 @@ book:
     - hirefire/index.qmd
     - performance/index.qmd
     - project/index.qmd
-    - finale/index.qmd
     - upward/index.qmd
     - safety/index.qmd
     - lifecycle/index.qmd
@@ -26,6 +25,7 @@ book:
     - remote/index.qmd
     - burnout/index.qmd
     - politics/index.qmd
+    - finale/index.qmd
   appendices:
     - license/index.qmd
     - conduct/index.qmd

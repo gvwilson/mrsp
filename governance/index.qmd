@@ -6,7 +6,6 @@ subtitle: "making decisions together"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
 -   Describe two ways informal decision-making fails as projects grow.
 -   Apply Martha's Rules to a concrete proposal.
 -   Write a one-paragraph governance statement for your project.
@@ -59,6 +58,14 @@ Every project, no matter how small, needs written answers to three questions:
 1.  Who gets a vote on what?
 2.  How are decisions recorded and communicated to people who weren't in the room?
 3.  How does someone raise a concern if they don't have a seat at the table?
+
+Research projects also face decisions that commercial teams rarely do,
+and those belong in the governance document too:
+who decides the authorship order on the software paper,
+who approves a release that a publication depends on,
+and whether postdocs and PIs vote the same way on such questions.
+Leaving these to "we'll sort it out when the paper is written"
+is how authorship fights start.
 
 {{< g marthas-rules "Martha's Rules" >}} [@Minahan1986] is
 a lightweight decision process that answers all three
@@ -186,6 +193,17 @@ Three questions that get confused:
     someone has to decide.
 3.  Who is an author on the paper about the software?
     This is what people argue about, and unfortunately there is no formula.
+
+::: {.callout-note}
+
+Most fields do have informal norms,
+e.g.,
+first-author conventions,
+whether supervisors are automatically included,
+and how "senior author" is indicated.
+A policy written without checking them will cause headaches later.
+
+:::
 
 As a manager, you should do two things before conflict happens:
 

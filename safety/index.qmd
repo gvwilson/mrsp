@@ -67,10 +67,32 @@ are small, repeated, and often unintentional:
 -   Changing direction without explaining why,
     which teaches people that their work can be cancelled without warning
 
+## Why Researchers Stay Silent
+
+Research adds specific reasons people stay silent
+beyond the ordinary fear of looking bad:
+
+Fear of being scooped
+:   Admitting that a method isn't working can feel like revealing a
+    weakness that a competing lab will exploit.
+
+Fear that asking questions signals you can't do the science
+:   In a culture where everyone is expected to already know, asking is
+    read as incompetence.
+
+Fear of challenging the PI
+:   The person who controls funding, authorship, and your reference
+    letter is not someone most people feel safe contradicting.
+
+These aren't paranoia.
+They reflect real power differences,
+and a manager who dismisses them as over-sensitivity
+will never hear about the problems that matter.
+
 ## What Managers Do to Build It
 
 -   Respond to bad news with curiosity rather than frustration:
-     "tell me more about how this happened"
+    "tell me more about how this happened"
 -   Publicly acknowledge your own mistakes and what you learned from them
 -   Ask for input explicitly from people who haven't spoken
 -   When someone brings you a problem,

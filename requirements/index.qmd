@@ -59,6 +59,17 @@ The key to doing this is to manage the requirements conversation:
 
 Crucially, write down what they say, not what you think they should have said.
 
+::: {.callout-note}
+
+Research software also has constraints that commercial products rarely face,
+so the conversation should include domain-specific questions:
+
+-   "What units and uncertainty does your discipline report?"
+-   "What data formats do your journals mandate?"
+-   "What does your IRB or data-use agreement require?"
+
+:::
+
 ## Prioritizing the Backlog
 
 Once you have translated users' needs into features,
@@ -69,6 +80,11 @@ This grid has four quadrants:
 -   Strategic investments (high impact, high effort): plan carefully.
 -   Fill-ins (low impact, low effort): do during slack time.
 -   Money pits (low impact, high effort): just don't.
+
+(Remember that "impact" means something specific in a research setting:
+how many papers this feature enables,
+whether it makes a citable result reproducible,
+and whether it will be cited in future methods sections.)
 
 The money pit is the one to watch.
 It is often technically interesting,
