@@ -6,7 +6,6 @@ subtitle: "your job is to make sure"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
 -   Reframe individual-contributor technical practices as management responsibilities.
 -   Distinguish between claiming a practice is followed and having evidence it is followed.
 -   Identify the compliance and safety obligations most likely to apply to your project.
@@ -66,7 +65,7 @@ institutional compliance officers,
 collaborators deciding whether to depend on your software,
 and your future self trying to understand why a decision was made two years ago.
 
-An {{< g audit-trail "audit trail" >}} is not surveillance.
+An {{<g audit-trail "audit trail" >}} is not surveillance.
 You are not tracking your team members to catch them doing something wrong:
 you are doing it to prevent mishaps.
 The practices below are a review, not a tutorial.
@@ -83,9 +82,9 @@ Code review
     review comments are addressed, not just dismissed.
 
 Testing
-:   {{< g unit-test "Unit tests" >}} are run before every merge; CI is configured and a failing
+:   {{<g unit-test "Unit tests" >}} are run before every merge; CI is configured and a failing
     build blocks the merge; coverage is tracked and not declining.
-    {{< g tdd "Test-driven development" >}} is one way to ensure
+    {{<g tdd "Test-driven development" >}} is one way to ensure
     that tests exist before code is merged [@Petre2014].
 
 Dependencies
@@ -135,12 +134,12 @@ Data-use agreements
 Secrets in version control
 :   API keys, passwords, and personal data committed to git are not
     gone when deleted: they live in history. Tools like `git-secrets`
-    or `trufflehog` detect them. {{< g secret-rotation "Key rotation" >}},
+    or `trufflehog` detect them. {{<g secret-rotation "Key rotation" >}},
     not deletion, is the fix when accidents happen.
 
 Licensing
-:   A contributor who adds {{< g gpl "GPL" >}} code to your
-    {{< g mit-license "MIT" >}}-licensed project changes the license of
+:   A contributor who adds {{<g gpl "GPL" >}} code to your
+    {{<g mit-license "MIT" >}}-licensed project changes the license of
     the whole project. A Contributor License Agreement or Developer
     Certificate of Origin clarifies who owns what before it becomes a
     problem.
@@ -200,54 +199,15 @@ Asking a search engine or an LLM is not the same as asking any of them.
     A  checklist item that can be answered by an LLM without actually being run
     is not a safety check: it's theater.
 
--   A specific technique to add:
-    ask contributors to paste the actual test output or CI run link next to checklist items,
-    not just a checkbox.
-    This is one thing LLMs cannot yet fabricate convincingly in a verifiable way.
+A specific technique to add:
+ask contributors to paste the actual test output or CI run link next to checklist items,
+not just a checkbox.
+This is one thing LLMs cannot yet fabricate convincingly in a verifiable way.
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _how_to_check.qmd >}}
 
-### How to Check (5 min)
+{{< exercise _practice_audit.qmd >}}
 
-The list below gives specific things to look for when doing an audit of practices.
-Add three more,
-two of which cover areas that these three don't.
-
--   Version control: a branch protection rule in GitHub.
--   Code review: a rule requiring reviewers on PRs before merging.
--   Testing: coverage reports checked into version control.
-
-
-
-### Practice Audit (8 min)
-
-Go through the practices checklist provided earlier.
-Mark each item: yes (with evidence), probably, no, or don't know.
-
-1.  For each "yes", write one sentence of evidence:
-    Not "we use CI" but
-    "CI is configured in `.github/workflows/` and the badge on the README shows current status".
-
-2.  For each "don't know",
-    write the name of one person on your team who does know.
-    If you don't know who knows, write that too.
-
-
-
-### Compliance Check (7 min)
-
-Repeat the audit using an LLM:
-
-> Review my project's practices against this checklist: [paste checklist items].
-
-> Based on what I tell you about my project
-> [two or three sentences describing the project, its data, and its contributors],
-> identify which compliance issues I should investigate.
-
-Run the prompt.
-Note what the LLM confidently asserted that it cannot actually know,
-such as your institution's specific policies,
-or your jurisdiction's legal requirements.
-(It *may* be able to say useful things about data sharing agreements
-if those are in the repository.)
+{{< exercise _compliance_check.qmd >}}

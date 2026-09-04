@@ -1,0 +1,35 @@
+---
+title: The Next 90 Days
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Write a 90-day plan with three concrete priorities.
+-   Know what to read next.
+
+## Planning at the Right Timescale
+
+-   Ninety days is long enough to finish something and short enough to be concrete.
+-   Three kinds of work must appear in the plan.
+-   Development of new features.
+-   Maintenance: bug fixes, reviews, dependency updates, and compliance.
+-   Getting support for future work: impact summaries and grant proposals.
+-   Maintenance consumes all time if not explicitly allocated.
+
+## The Monday Morning Test
+
+-   A plan with five priorities cannot be finished in ninety days.
+-   Write a plan with three priorities, each with a clear definition of done.
+-   Ask "what is the first thing you will do on Monday morning?"
+-   If you cannot answer, the goal is too vague.
+-   "Work on the documentation" is not well defined; a specific first step is.
+
+```{.include}
+_90_day_plan.qmd
+_monday_morning.qmd
+_wrap_up.qmd
+```

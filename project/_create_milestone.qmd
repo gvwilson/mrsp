@@ -1,0 +1,16 @@
+## Set Up a Milestone (7 min) {.exercise}
+
+Prompt the LLM with something like this:
+
+> Given these open issues in my project [paste 5-8 real issue titles],
+> help me create a four-week milestone.
+> Assign each to either the milestone or a backlog.
+> For each milestone issue, estimate the effort in hours and identify dependencies.
+
+1.  Note which assignments the LLM got wrong
+    because it doesn't know your project's history or your team's actual capacity.
+
+1.  Open your project's issue tracker.
+    Create a milestone ending four weeks from today.
+    Move or create 3-5 issues into it, each with an assignee and a time estimate.
+    Flag any "in progress" issue with no recent activity as "stalled."

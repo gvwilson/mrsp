@@ -1,0 +1,14 @@
+## Design a Communication Structure (10 min) {.exercise}
+
+Design a communication structure for a team with contributors
+in at least three time zones.
+(Use your own project, or use Jess's team: Toronto, Rabat, Warsaw, and Seoul).
+Specify:
+
+-   How often synchronous meetings happen and when (rotate or fixed?).
+-   How decisions are made for things that can't wait for a meeting.
+-   What the expected response time is for code reviews and issues.
+-   How contributors who miss a meeting find out what was decided.
+
+Compare your structure with a partner's.
+Identify one thing they included that you missed.

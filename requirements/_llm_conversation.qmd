@@ -1,0 +1,13 @@
+## LLM Requirements Conversation (8 min) {.exercise}
+
+Prompt the LLM like this:
+
+> Play the role of a postdoc in ecology who uses [project name] for their data analysis.
+> You want to be able to [feature request from your real backlog].
+> Answer my questions about your needs in character.
+> Don't reveal your real requirements immediately:
+> let me ask the right questions."
+
+Ask at least five questions before proposing anything.
+Stop when you can write a one-sentence requirement in the form:
+"When [situation], [user type] needs to [action] so that [outcome]."

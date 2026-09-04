@@ -6,7 +6,6 @@ subtitle: "long enough to finish something, short enough to be concrete"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
 -   Write a 90-day plan with three concrete priorities.
 -   Know what to read next.
 
@@ -54,41 +53,10 @@ is more likely to get done.
 
 :::
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _90_day_plan.qmd >}}
 
-### Draft Your 90-Day Plan (12 min)
+{{< exercise _monday_morning.qmd >}}
 
-Prompt the LLM like this:
-
-> Based on this project health audit [paste rubric from Session 1]
-> and these open issues [paste items from your project],
-> create a 90-day plan with three concrete priorities.
-> For each, explain what will be done, how I will know it's done,
-> and what could prevent it from being completed.
-
-1.  Note any priority the LLM suggested that you know won't happen
-    because of a constraint it doesn't know,
-    such as a funding gap,
-    lack of team capacity,
-    or an external deadline.
-1.  Make a list of two people you need to talk to
-    (either by name or by role)
-    and what you need.
-
-
-
-### Monday Morning Test (8 min)
-
-In pairs:
-
-1.  Read one priority from your plan to your partner.
-1.  Tell them what the first thing you'll do on Monday morning is.
-1.  Ask them for feedback on whether your description is specific enough.
-
-
-
-### Wrap-up (5 min)
-
-1.  What is the single most useful thing you learned or produced today?
-2.  What was included that you don't think you'll use?
+{{< exercise _wrap_up.qmd >}}

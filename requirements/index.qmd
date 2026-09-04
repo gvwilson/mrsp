@@ -6,10 +6,9 @@ subtitle: "figuring out what people actually need"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
 -   Distinguish between a feature request and an underlying need.
--   Conduct a short requirements conversation and extract a concrete specification.
--   Prioritize a backlog using a two-axis framework.
+-   Explain how to prioritize a backlog of work.
+-   Describe strategies for saying "no" without alienating contributors.
 
 :::
 
@@ -177,34 +176,8 @@ the human conversation is where you learn what actually matters.
     not on the actual constraints of your team
     or the actual needs of their specific user community.
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _llm_conversation.qmd >}}
 
-### LLM Requirements Conversation (8 min)
-
-Prompt the LLM like this:
-
-> Play the role of a postdoc in ecology who uses [project name] for their data analysis.
-> You want to be able to [feature request from your real backlog].
-> Answer my questions about your needs in character.
-> Don't reveal your real requirements immediately:
-> let me ask the right questions."
-
-Ask at least five questions before proposing anything.
-Stop when you can write a one-sentence requirement in the form:
-"When [situation], [user type] needs to [action] so that [outcome]."
-
-
-
-### Human Requirements Conversation (10 min)
-
-Switch to a real partner.
-Pick a different feature request from your backlog.
-One person is the user, the other is the product manager.
-
-1.  (7 min) Ask five questions before proposing anything.
-    Write the requirement sentence.
-
-2.  (3 min) Compare the two conversations.
-    What did the real person tell you that the LLM couldn't?
-    What did the LLM simulate well?
+{{< exercise _human_conversation.qmd >}}

@@ -1,0 +1,10 @@
+## Fresh Eyes Test (8 min) {.exercise}
+
+Swap your draft with a partner.
+
+1.  (5 min) What command should you run first?
+    What does a successful test run look like?
+    Who do you contact if you get stuck?
+
+2.  (3 min) Ask your partner one "what do I do if…" question
+    that their document doesn't answer.

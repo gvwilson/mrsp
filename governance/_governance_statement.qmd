@@ -1,0 +1,13 @@
+## Draft Your Governance Statement (12 min) {.exercise}
+
+Write a short governance statement that answers the three questions posed earlier,
+then compare your answer to what you get from an LLM with a prompt like this:
+
+> Write a one-page governance document for a small open-source research software project.
+> The project has [N] active contributors.
+> The document must explain who gets a vote,
+> how decisions are recorded,
+> and how non-voting contributors can raise concerns.
+> Assume the project uses Martha's Rules for formal decisions.
+
+Rewrite your governance statement based on insights from the LLM's response.

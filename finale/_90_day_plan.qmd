@@ -1,0 +1,18 @@
+## Draft Your 90-Day Plan (12 min) {.exercise}
+
+Prompt the LLM like this:
+
+> Based on this project health audit [paste rubric from Session 1]
+> and these open issues [paste items from your project],
+> create a 90-day plan with three concrete priorities.
+> For each, explain what will be done, how I will know it's done,
+> and what could prevent it from being completed.
+
+1.  Note any priority the LLM suggested that you know won't happen
+    because of a constraint it doesn't know,
+    such as a funding gap,
+    lack of team capacity,
+    or an external deadline.
+1.  Make a list of two people you need to talk to
+    (either by name or by role)
+    and what you need.

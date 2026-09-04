@@ -1,0 +1,41 @@
+---
+title: Career Development
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Describe what career growth means for someone on a research software track.
+-   Describe what a useful career conversation covers.
+
+## Careers That Have No Ladder
+
+-   RSEs occupy institutional space designed for someone else.
+    -   Academic promotion criteria are built for bench scientists and theoreticians.
+    -   Industry engineering ladders are built for product companies.
+    -   Neither fits people who build research software as a primary contribution.
+-   The lack of a ladder means RSEs have more freedom but need to be more self-aware.
+
+## Dimensions of Growth
+
+-   Technical depth in a specific domain.
+-   Technical breadth such as DevOps, data engineering, and visualization.
+-   Community presence such as co-authorship and conference talks.
+-   Institutional influence through committees, advising, and policy.
+-   Anchor growth in artifacts a promotion committee can be shown.
+
+## Career Conversations
+
+-   Cover where the person wants to be in two to three years.
+-   Cover what the project can offer toward that goal.
+    -   Be honest: if the project cannot offer authorship, say so.
+    -   If it can offer a conference talk or software paper, offer it explicitly.
+-   Advocating for recognition often matters more than giving advice.
+
+```{.include}
+_career_conversation.qmd
+_advocacy_audit.qmd
+```

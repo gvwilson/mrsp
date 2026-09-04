@@ -1,0 +1,20 @@
+## Career Conversation Practice (12 min) {.exercise}
+
+Prompt the LLM like this:
+
+> Play the role of a junior RSE who has been maintaining a research software project for two years.
+> You want to advance in your career but you're not sure what that means
+> in your institutional context.
+> Answer my questions about your goals in character.
+> Your specific situation: [describe one detail about their background or ambition].
+
+1.  Ask the LLM what does success look like? What's in your way? What would help?
+
+1.  Based on the conversation,
+    write three concrete things the project could offer toward this person's goals.
+    Be specific: not "support their development"
+    but "submit a software paper with them as first author in Q2".
+
+3.  What did the LLM get right? What did it get wrong?
+    (The most common failure is it not knowing what constraints actually exist at your institution,
+    e.g., what counts for promotion or what authorship norms are in your field.)

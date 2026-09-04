@@ -1,0 +1,11 @@
+## Stress Test (8 min) {.exercise}
+
+Work in groups of three.
+One person reads their governance statement aloud.
+The other two play roles:
+
+1.  A confused newcomer who wants to contribute
+    but has never interacted with the project.
+    Ask one question the statement doesn't answer.
+2.  A disgruntled long-term contributor who disagrees with a recent decision.
+    Ask one question about how they could have raised that disagreement.

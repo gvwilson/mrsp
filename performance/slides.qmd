@@ -1,0 +1,76 @@
+---
+title: Performance and Growth
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Know how to give specific, actionable feedback using Situation/Behavior/Impact.
+-   Explain why regular one-to-one meetings are more useful than annual performance reviews.
+-   Describe several forms that on-the-job training can take.
+-   Describe the key components of a career development conversation.
+
+## Feedback
+
+-   Vague feedback gives nothing to act on; specific feedback gives a target.
+-   Use the SBI format: Situation, Behavior, Impact.
+-   Situation: "In the last four pull requests…"
+-   Behavior: "…your commit messages describe what changed but not why…"
+-   Impact: "…which means I have to read the code, not the log."
+-   Use the same format for positive feedback.
+
+## Giving Feedback Well
+
+-   Give negative feedback in a one-to-one meeting, not in a group.
+    -   Ambushing someone in a group turns the conversation into a status competition.
+-   Rehearse difficult feedback before the meeting.
+-   The discomfort before the conversation is usually worse than the conversation itself.
+
+## Performance Reviews
+
+-   Most annual reviews are compliance exercises that change nothing.
+-   A useful review contains no surprises.
+-   Weekly or biweekly one-to-ones do the real work.
+-   Use a three-part agenda: progress, plans, and problems.
+-   Write down expectations before the review period starts.
+
+## Better Reviews
+
+-   Separate the performance conversation from the compensation conversation.
+-   Document everything: repeated verbal warnings help no one.
+-   If unsure whether to document, ask if you could explain a firing to HR.
+-   If structured feedback fails, escalate to HR and start the documentation trail.
+-   Measure what result the work enabled, not commit counts or lines of code.
+
+## Training and Skill Development
+
+-   Teams underspend on training because the return is diffuse and delayed.
+-   Identify the gap between current skills and near-term project needs.
+-   Pair programming and code review are the cheapest skill transfer.
+-   Preparing a presentation makes someone learn the material.
+-   Be consistent: unequal development funding creates grievances.
+
+## Career Development Conversations
+
+-   Do not wait for staff to bring up career goals.
+-   Every six months, ask "where do you want to be in two years?"
+-   Be honest about what is and is not possible at your institution.
+-   Connect the person's goals to the project's needs where you can.
+-   Document what you agree to.
+
+## What about AI?
+
+<ul>
+  <li class="yes">LLMs can draft a performance improvement plan with required elements</li>
+  <li class="no">LLM review drafts can sound balanced but lack evidence of actual work</li>
+  <li class="no">LLM learning paths may emphasize skills that were valuable years ago</li>
+</ul>
+
+```{.include}
+_three_people.qmd
+_role_play.qmd
+_career_conversation.qmd
+```

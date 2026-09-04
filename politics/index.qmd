@@ -6,13 +6,11 @@ subtitle: "the game that happens whether you play or not"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
 -   Recognize that every organization is political
     and that "we don't do politics here" is itself a political position.
 -   Identify who holds meaningful power over a decision
     by asking whose support the decision-maker actually needs.
--   Advocate for your work in ways that are honest and effective,
-    and don't require pretending that politics doesn't exist.
+-   Explain which "political" skills predict job success.
     
 :::
 
@@ -34,27 +32,27 @@ It wasn't.
 The political scientist Harold Lasswell defined politics as
 the study of "who gets what, when, how" [@Runciman2014].
 His definition contains no implication that the getting is fair,
-no assumption that what gets distributed is material,
 and no requirement that the process be democratic.
 It is simply a description of how groups make binding decisions
 about allocating things people want.
 
-{{< g workplace-politics "Politics" >}} is what happens when a group of people who do not fully agree on goals or values
+{{<g workplace-politics "Politics" >}} is what happens
+when a group of people who do not fully agree on goals or values
 nonetheless need to act together.
 The alternative to politics is not harmony—it is coercion.
 A group that appears to have no politics is usually one in which someone has already won
 so decisively that further fighting seems pointless.
-People resist this analysis through {{< g motivated-reasoning "motivated reasoning" >}}:
+People resist this analysis through {{<g motivated-reasoning "motivated reasoning" >}}:
 the belief that their own decisions are purely rational while others' are political.
 
-Bueno de Mesquita and Smith developed {{< g selectorate-theory "selectorate theory" >}}
+Bueno de Mesquita and Smith developed {{<g selectorate-theory "selectorate theory" >}}
 to explain why leaders behave the way they do [@BuenodeMesquita2011].
 The core observation is simple:
 leaders of countries, companies, and volunteer organizations need enough support to stay in power.
 They get that support by distributing benefits to
-a minimum necessary {{< g winning-coalition "winning coalition" >}}:
+a minimum necessary {{<g winning-coalition "winning coalition" >}}:
 the subset of people whose support they actually require.
-Everyone else is what the theory calls the {{< g selectorate "selectorate" >}}:
+Everyone else is what the theory calls the {{<g selectorate "selectorate" >}}:
 large enough to give the winning coalition options if any member defects,
 but not powerful enough to claim a significant share of the benefits.
 
@@ -78,8 +76,10 @@ is itself a political move [@Crick2000].
 
 ## Acting on This
 
-Jeffrey Pfeffer's research on organizations found that political skills—building coalitions,
-reading organizational dynamics, timing moves correctly—are stronger predictors of career advancement
+Jeffrey Pfeffer's research on organizations found that political skills
+like building coalitions,
+reading organizational dynamics,
+and timing moves correctly are stronger predictors of career advancement
 than technical competence [@Pfeffer1992].
 This is not a reason for cynicism;
 it is a reason to be deliberate.
@@ -121,41 +121,8 @@ The contested proposal was withdrawn before it reached the PI's desk.
     Political skill in organizations partly consists of reading between the lines;
     LLM text generation degrades the signal.
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _map_coalition.qmd >}}
 
-### {{< g power-mapping "Map the Coalition" >}} (10 min)
-
-Think of a decision that was made in your project or institution 
-that went differently than you expected based on the technical merits.
-Prompt an LLM:
-
-> I'm trying to understand a decision that went differently than I expected.
-> The decision was [describe it].
-> The technical case for the outcome I expected was [describe it].
-> The outcome that actually happened was [describe it].
-> What are three non-technical factors that might explain the actual outcome,
-> and what information about the people involved would help me test each explanation?"
-
-1.  Run the prompt.
-    Does the LLM identify stakeholders and their likely interests?
-    Does it suggest any information you hadn't considered?
-
-1.  For your actual situation: who needed to support the decision for it to go through?
-    What did those people care about that wasn't captured in the technical argument?
-
-
-
-### Rewrite the Argument (10 min)
-
-Take a technical proposal you have made or plan to make.
-Rewrite the core argument for an audience that cares about something other than technical correctness.
-Do not use any technical terms your audience would not know.
-You must frame the proposal in terms of something they already care about,
-such as risk, cost, reputation, or timeline.
-Trade your proposal with a partner and exchange critiques.
-
-
-## See Also
-
-[@BuenodeMesquita2011; @Crick2000; @Manns2015; @Pfeffer1992; @Runciman2014]
+{{< exercise _rewrite_argument.qmd >}}

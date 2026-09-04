@@ -1,0 +1,12 @@
+## Write Your Advance Directive (10 min) {.exercise}
+
+Write a one-page document covering:
+
+-   The conditions under which this project should be wound down
+    (not just "when funding runs out" but specific observable signals:
+    contributor count, response time to issues, number of active users).
+-   Who has the authority to make that call.
+-   What assets must be preserved before shutdown is complete.
+-   What obligations must be honored before the project can be considered closed.
+
+Give the document to an LLM and prompt it to identify three realistic scenarios it doesn't cover.

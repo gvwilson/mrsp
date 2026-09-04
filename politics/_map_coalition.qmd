@@ -1,0 +1,19 @@
+## Map the Coalition (10 min) {.exercise}
+
+Think of a decision that was made in your project or institution 
+that went differently than you expected based on the technical merits.
+Prompt an LLM:
+
+> I'm trying to understand a decision that went differently than I expected.
+> The decision was [describe it].
+> The technical case for the outcome I expected was [describe it].
+> The outcome that actually happened was [describe it].
+> What are three non-technical factors that might explain the actual outcome,
+> and what information about the people involved would help me test each explanation?"
+
+1.  Run the prompt.
+    Does the LLM identify stakeholders and their likely interests?
+    Does it suggest any information you hadn't considered?
+
+1.  For your actual situation: who needed to support the decision for it to go through?
+    What did those people care about that wasn't captured in the technical argument?

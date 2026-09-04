@@ -1,0 +1,15 @@
+## The Hiring Brief (10 min) {.exercise}
+
+Write the job description for the next hire on your team,
+thene check it against these questions:
+
+-   Does it describe the actual work, or the ideal candidate?
+-   Does it include a salary range?
+-   Does it describe how candidates will be evaluated?
+
+Use an LLM to critique what you wrote:
+
+> I'm hiring a research software engineer for a small academic project.
+> Here is my draft job description.
+> Identify any language that might discourage qualified candidates from applying
+> or that signals poor hiring practices.

@@ -7,9 +7,8 @@ subtitle: "making decisions together"
 ::: {.callout-note title="Learning Objectives"}
 
 -   Describe two ways informal decision-making fails as projects grow.
--   Apply Martha's Rules to a concrete proposal.
--   Write a one-paragraph governance statement for your project.
--   Establish authorship and credit policies before a conflict makes them necessary.
+-   Describe Martha's Rules and explain when they are appropriate.
+-   Explain when to establish authorship and credit policies.
 
 :::
 
@@ -41,7 +40,7 @@ and "Jess chose Carlos's approach because she knows him better."
 Jo Freeman's classic essay on the tyranny of structurelessness [@Freeman1972] argued
 that informal groups always have power structures—they're just invisible and unaccountable.
 [@Majumder2019] analyzed over a thousand GitHub projects
-and found that 80% are {{< g hero-project "hero projects" >}}
+and found that 80% are {{<g hero-project "hero projects" >}}
 in which 5% or fewer of contributors account for 95% or more of substantive interactions.
 This is understandable in specialized research domains,
 but if a project wants to attract new contributors (and keep existing ones)
@@ -67,14 +66,14 @@ and whether postdocs and PIs vote the same way on such questions.
 Leaving these to "we'll sort it out when the paper is written"
 is how authorship fights start.
 
-{{< g marthas-rules "Martha's Rules" >}} [@Minahan1986] is
+{{<g marthas-rules "Martha's Rules" >}} [@Minahan1986] is
 a lightweight decision process that answers all three
-(and scales better than {{< g roberts-rules "Robert's Rules" >}} for small teams):
+(and scales better than {{<g roberts-rules "Robert's Rules" >}} for small teams):
 
 -   Proposals are filed at least 24 hours before a meeting.
 -   A proposal is at most one page:
     a summary, a concrete proposal, some discussion of pros and cons, and alternatives.
--   Members cast a {{< g sense-vote "sense vote" >}}: support, neutral, or oppose.
+-   Members cast a {{<g sense-vote "sense vote" >}}: support, neutral, or oppose.
 -   If everyone supports or is neutral, the motion passes.
 -   If there is opposition,
     the group gets 10 minutes of moderated discussion followed by a binary vote
@@ -112,7 +111,7 @@ then only give you a couple of minutes to think about how to respond,
 I will probably be able to get things past you
 that you would notice and object to if given more time.
 Proposals must be submitted at least a day in advance
-to prevent this kind of {{< g sandbagging "sandbagging" >}}.
+to prevent this kind of {{<g sandbagging "sandbagging" >}}.
 
 :::
 
@@ -257,54 +256,10 @@ because they required being specific about things she had been comfortable leavi
     Projects that use LLM-drafted governance docs without reviewing them carefully
     have essentially adopted time bombs.
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _governance_statement.qmd >}}
 
-### Draft Your Governance Statement (12 min)
+{{< exercise _authorship_policy.qmd >}}
 
-Write a short governance statement that answers the three questions posed earlier,
-then compare your answer to what you get from an LLM with a prompt like this:
-
-> Write a one-page governance document for a small open-source research software project.
-> The project has [N] active contributors.
-> The document must explain who gets a vote,
-> how decisions are recorded,
-> and how non-voting contributors can raise concerns.
-> Assume the project uses Martha's Rules for formal decisions.
-
-Rewrite your governance statement based on insights from the LLM's response.
-
-
-
-### Authorship Policy (7 min)
-
-Write two sentences for the "Authorship" section of your `CONTRIBUTING.md`:
-
--   Sentence 1:
-    what kinds of contributions qualify someone for authorship
-    on a paper about the software.
-    Be specific: not "substantial contribution" but something that could be assessed independently
-    after the fact.
--   Sentence 2:
-    how someone who believes they have been omitted can raise the issue.
-
-Once this is done,
-prompt an LLM to look through the history of the project,
-including email archives and other discussions,
-and see who it thinks deserves credit.
-Note that this means sharing that history with the LLM:
-are you sure everyone in the discussions is comfortable doing that?
-
-
-
-### Stress Test (8 min)
-
-Work in groups of three.
-One person reads their governance statement aloud.
-The other two play roles:
-
-1.  A confused newcomer who wants to contribute
-    but has never interacted with the project.
-    Ask one question the statement doesn't answer.
-2.  A disgruntled long-term contributor who disagrees with a recent decision.
-    Ask one question about how they could have raised that disagreement.
+{{< exercise _stress_test.qmd >}}

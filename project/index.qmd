@@ -6,9 +6,9 @@ subtitle: "knowing who is doing what and what is in their way"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
--   Set up a lightweight tracking system for a small team.
--   Write a status update that makes blockers visible.
+-   Explain what "project management" looks like for a small research team.
+-   Describe the progress/plans/problems format for status reports.
+-   Explain how to manage a work backlog and when and how to cut items from it.
 
 :::
 
@@ -19,7 +19,7 @@ She had a list of fourteen open GitHub issues and a whiteboard.
 Two hours later they had agreed on a prioritized set of work for the next three weeks.
 The following Monday,
 Jess asked each of them what they were working on.
-Tahia was working on a {{< g refactoring "refactoring" >}} she had decided was necessary,
+Tahia was working on a {{<g refactoring "refactoring" >}} she had decided was necessary,
 but which wasn't on the list.
 Ren was working on her first item
 but had been stuck for two days on a dependency issue he hadn't mentioned
@@ -151,30 +151,8 @@ because she hadn't known to look.
     rather than addressing a few deep architectural problems
     because the former produces more visible output.
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _status_update.qmd >}}
 
-### Write a Status Update (8 min)
-
-Write one three-column status update for yourself,
-then swap with a partner.
-Read their Problems column and identify one thing you could do to help.
-
-
-
-### Set Up a Milestone (7 min)
-
-Prompt the LLM with something like this:
-
-> Given these open issues in my project [paste 5-8 real issue titles],
-> help me create a four-week milestone.
-> Assign each to either the milestone or a backlog.
-> For each milestone issue, estimate the effort in hours and identify dependencies.
-
-1.  Note which assignments the LLM got wrong
-    because it doesn't know your project's history or your team's actual capacity.
-
-1.  Open your project's issue tracker.
-    Create a milestone ending four weeks from today.
-    Move or create 3-5 issues into it, each with an assignee and a time estimate.
-    Flag any "in progress" issue with no recent activity as "stalled."
+{{< exercise _create_milestone.qmd >}}

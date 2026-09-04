@@ -6,10 +6,10 @@ subtitle: "the difference between tired and burned out matters"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
 -   Distinguish burnout from ordinary fatigue and underperformance.
--   Identify early warning signs in yourself and your team members.
--   Take at least one concrete protective action for your team this week.
+-   Describe research-specific drivers of burnout.
+-   Explain how to identify early warning signs in yourself and your team members.
+-   Describe steps a manager can take to prevent or correct burnout.
 
 :::
 
@@ -168,34 +168,8 @@ and more of an obstacle to her team's autonomy than she'd realized.
     This is too new to be characterized in the burnout literature,
     but appears to be a real phenomenon.
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _sustainability.qmd >}}
 
-### Personal Sustainability Check (8 min)
-
-Answer honestly:
-
-1.  How many hours did you work last week? Is that typical?
-2.  In the last month, have you done something purely for enjoyment that had nothing to do with work?
-3.  Name one thing that used to energize you about this project that currently doesn't.
-4.  If a team member were behaving the way you currently are, what would you say to them?
-
-You don't need to share your answers. Write them for yourself.
-
-
-
-### Team Protection Plan (12 min)
-
-In pairs:
-
-1.  Describe one person on your team whose workload you are not sure is sustainable.
-    What do you know about their current situation?
-    What don't you know?
-
-1.  Write three concrete things you could do this week to make their situation more sustainable
-    or to find out whether it is.
-    Be specific:
-    not "check in with them"
-    but "at tomorrow's one-to-one,
-    ask whether the amount of work they currently have is sustainable,
-    and listen to the answer without immediately offering solutions."
+{{< exercise _team_protection.qmd >}}

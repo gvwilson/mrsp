@@ -1,0 +1,22 @@
+## Communication Audit (10 min) {.exercise}
+
+Answer these questions for your project:
+
+1.  What is the longest a pull request or issue comment has gone without a response
+    in the last three months? What time zone was the contributor in?
+1.  When are your regular meetings scheduled? Which contributors can't attend at that
+    time without rearranging their workday?
+1.  Where are decisions made? Are they accessible to contributors who weren't in the
+    meeting?
+1.  Which contributors haven't engaged in the last month? What do you know about why?
+
+Then prompt an LLM like this:
+
+> I manage a distributed research software team with contributors in [list time zones].
+> Our current practices are [describe briefly].
+> What specific failure modes should I watch for,
+> and what are the three highest-priority changes to make?"
+
+Compare the LLM's suggestions to your audit answers.
+What did it get right?
+What did it get wrong because it lacked context about your specific project?

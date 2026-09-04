@@ -1,0 +1,45 @@
+---
+title: Managing Your Manager
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Describe three practices for managing your manager.
+
+## Working With the People Above You
+
+-   Managing your manager makes the relationship more productive for both of you.
+-   Your manager controls resources and priorities.
+-   You know feasibility and cost.
+    -   Provide that information clearly and early.
+
+## Translate Effort into Impact
+
+-   "That would take three weeks" rarely has an impact.
+-   Instead, Say what the team cannot do if they do that (i.e., opportunity cost).
+    -   Managers compare impacts, not estimate hours.
+-   Anchor trade-offs to grants, tenure, publications, and reputation.
+
+## Say No by Offering Alternatives
+
+-   "I can't do that" forces the manager to disagree or back down.
+-   Offer a trade-off: "I can do that if we defer item 12."
+-   Most managers make the trade-off sensibly when it is presented as such.
+-   Again, anchor trade-offs to the grants and publications.
+
+## Give Written Updates
+
+-   Send a brief weekly email before they ask.
+    -   This is *your* progress/plans/problems report.
+-   It prevents ad hoc check-ins and creates a record.
+-   Keep track of current commitments and time estimates.
+
+```{.include}
+_translate.qmd
+_alternative_offer.qmd
+_course_correction.qmd
+```

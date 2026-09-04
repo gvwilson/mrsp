@@ -1,0 +1,15 @@
+## Choosing a Course Correction (15 min) {.exercise}
+
+Your project is four weeks from its deadline and you have just realized you are six weeks behind.
+Three options are on the table:
+
+1.  Slip the deadline by two weeks and ask your funder for an extension.
+2.  Cut two half-finished features and ship the remaining ones complete.
+3.  Keep the deadline, ship what you have, and send users a patch in six weeks.
+
+Write two or three sentences for each option describing what it will cost the team,
+what it will cost the users or stakeholders,
+and what it will signal to your manager about how you handle pressure.
+Compare your answers to a partner's.
+Did you rank the options the same way?
+If not, what assumptions led you to different conclusions?

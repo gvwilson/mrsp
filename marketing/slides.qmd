@@ -1,0 +1,59 @@
+---
+title: Marketing
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Distinguish between marketing, sales, and support.
+-   Explain how a pitch differs from a list of features.
+-   Describe places people will look for your software.
+
+## What Marketing Is(n't)
+
+-   Marketing means making sure the people you could help know you exist.
+-   If you don't do this, someone else will (usually incorrectly).
+-   Marketing is awareness: someone learns you exist.
+-   Sales is adoption: someone goes from interested to using it.
+-   Support is success: someone who uses it keeps being able to use it.
+
+## Writing a Pitch
+
+-   A pitch describes who has a problem, how they cope, and why you help.
+-   It is not a list of features.
+-   Test: can you explain the software in one sentence to someone outside your field?
+
+## Pitches for Different Audiences
+
+-   Different audiences need different descriptions.
+    -   A grad student wants to know it runs and has examples.
+    -   A senior researcher wants to know if it is maintained and citable.
+    -   A program officer wants to know about impact and sustainability.
+-   Things that cost almost nothing help the most.
+    -   Add a `CITATION.cff` file, one working example, and one real use case.
+    -   A working example converts curious visitors into users.
+
+## Where to Go and What to Count
+
+-   Preprint servers and software papers reach the right audience by default.
+-   Mailing lists and chat communities are less formal.
+-   The pitch form changes by channel.
+-   The signal that matters most is being mentioned or cited in papers.
+    -   Downloads and stars measure curiosity, not use.
+
+## What about AI?
+
+<ul>
+  <li class="yes">LLMs can convert dense documentation into readable READMEs and blog posts</li>
+  <li class="no">LLM-generated text often omits failure modes, limitations, and caveats</li>
+  <li class="no">LLM pitches sound generic and lose the specific voice that persuades</li>
+</ul>
+
+```{.slides}
+_three_pitches.qmd
+_one_more_pitch.qmd
+_objections.qmd
+```

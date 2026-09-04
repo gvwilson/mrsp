@@ -1,0 +1,60 @@
+---
+title: Requirements
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Distinguish between a feature request and an underlying need.
+-   Explain how to prioritize a backlog of work.
+-   Describe strategies for saying "no" without alienating contributors.
+
+## Digging Deeper
+
+-   Users describe what they want in terms of their current workflow.
+-   The product manager's job is to surface the real requirement by asking about:
+    -   problems, not solutions;
+    -   frequency and severity; and
+    -   the downstream decision: who sees the result and what they do with it.
+-   Record what people actually say, not what you think they should have said.
+
+## Domain-Specific Questions
+
+-   Research software has constraints commercial products rarely face.
+    -   What units and uncertainty does your discipline report?
+    -   What data formats do your journals mandate?
+    -   What does your IRB or data-use agreement require?
+
+## Prioritizing the Backlog
+
+-   Place each feature on a 2x2 grid of impact and effort.
+-   Quick wins: high impact, low effort, do first.
+-   Strategic investments: high impact, high effort, plan carefully.
+-   Fill-ins: low impact, low effort, do during slack time.
+-   Money pits: low impact, high effort, just do not do them.
+
+## How to Say No
+
+-   Don't say "yes" unless you can follow through.
+-   "This is on our roadmap for milestone X", and track how often you miss it.
+-   "This is out of scope because reason", and keep a public to-don't list.
+-   "We would accept a pull request if condition."
+-   Write your answer in the issue for future reference.
+-   An open issue is an implicit promise.
+-   Close, park, or assign issues untouched for twelve months.
+
+## What about AI?
+
+<ul>
+  <li class="yes">LLMs can cluster GitHub issues by topic to find patterns</li>
+  <li class="yes">LLMs can generate user stories, but they reflect generic assumptions</li>
+  <li class="no">LLM backlog prioritization sounds authoritative but ignores your team's constraints</li>
+</ul>
+
+```{.include}
+_llm_conversation.qmd
+_human_conversation.qmd
+```

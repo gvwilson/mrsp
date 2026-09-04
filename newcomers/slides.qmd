@@ -1,0 +1,74 @@
+---
+title: Welcoming Newcomers
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Explain why a `CONTRIBUTING.md` file matters even for a two-person project.
+-   Evaluate a `CONTRIBUTING.md` for a real newcomer's experience.
+-   Produce a draft `CONTRIBUTING.md` that a stranger could follow.
+
+## Feeling Welcome
+
+-   Newcomers mostly drop off for social reasons, not technical ones.
+    -   No response, confusing responses, and no clear next step.
+-   A useful `CONTRIBUTING.md` removes these barriers.
+
+## What a `CONTRIBUTING.md` Needs
+
+-   How to set up the development environment (with exact commands).
+-   Where to get the data and under what terms it can be used.
+-   How to run the tests (and what expected output looks like).
+-   What kinds of contributions are and are not welcome.
+-   How to submit a pull request and what happens next.
+-   Who to contact when stuck, with a realistic response time.
+
+## Make Newcomers Feel Welcome
+
+-   The "good first issue" label is a promise you must keep.
+    -   Estimate issue difficulty before labeling it for newcomers.
+-   Set realistic expectations, e.g., a two-week response time.
+-   Acknowledge every PR with a brief comment immediately.
+-   Tell the author what is happening if the review slips.
+
+## Legitimate Peripheral Participation
+
+-   Newcomers ease in through small, low-risk tasks that contribute something real.
+-   Writing one test teaches structure and produces a merged PR.
+
+## Code of Conduct
+
+-   A Code of Conduct is not optional.
+    -   Just its existence signals what kind of project this is.
+-   It must say who handles complaints and how.
+
+## Types of Contributors
+
+-   *One-off bug reporters* need a fast, friendly response.
+-   *Occasional contributors* are worth investing in.
+-   *Regulars* need a path to becoming project members.
+
+## Not Like That
+
+-   Common for occasional contributors to fix a problem, but not the way the maintainer would.
+-   Accepting it as-is builds goodwill but adds debt.
+-   Rejecting it can cost the project a contributor.
+-   The best response is actionable review comments with an offer to pair on the revision.
+    -   More work in the short term.
+    -   Potentially more rewarding over the project's lifetime.
+
+## What about AI?
+
+<ul>
+  <li class="yes">LLMs can draft a first response to a new contributor's PR</li>
+  <li class="no">Bots and LLM users increasingly claim good first issues, leaving less for human newcomers</li>
+</ul>
+
+```{.include}
+_contributing.qmd
+_fresh_eyes.qmd
+```

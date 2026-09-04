@@ -1,0 +1,16 @@
+## Write Three Pitches (12 min) {.exercise}
+
+Prompt the LLM with something like this:
+
+> Write three one-paragraph descriptions of this research software project
+> for three different audiences:
+> (1) a graduate student in [field] looking for a tool,
+> (2) a senior researcher deciding whether to recommend it to their group, and
+> (3) a funding agency program officer.
+> The software does [one sentence].
+> Its main advantage over alternatives is [one sentence].
+
+Run the prompt,
+read each paragraph in the response,
+and check for factual errors.
+Does the "main advantage" actually match your software?

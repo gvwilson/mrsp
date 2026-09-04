@@ -1,0 +1,57 @@
+---
+title: Project Health
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Name the six dimensions of a minimum viable research software project.
+-   Score your own project on each dimension.
+-   Identify the highest-priority gaps.
+
+## What "Healthy" Means
+
+-   Healthy means findable, reproducible, and maintainable by someone other than you.
+-   Most research projects score poorly on these until someone complains.
+-   Use six dimensions to assess the state of your project.
+
+## Six Dimensions
+
+-   Findability: has a DOI, a `CITATION.cff` file, and registry listings.
+-   Reproducibility: pinned dependencies, a virtual environment or container, and a rerun script.
+-   Testability: automated tests run on every change via CI.
+-   Contribution pathway: a `CONTRIBUTING.md` a stranger could follow.
+-   Governance: written rules for who decides what.
+-   Sustainability: more than one person can release, with a documented succession plan.
+
+## Dependencies Between Dimensions
+
+-   The six dimensions are not independent.
+-   Low governance almost always means poor sustainability.
+-   Poor reproducibility usually means low testability.
+-   Tests that pass on one machine may fail elsewhere.
+-   The dimensions focus on software first, and on the team later.
+
+## Honesty Is Uncomfortable
+
+-   An honest audit tells you which gap to fix first.
+-   Improving your lowest dimension by one point matters more than polishing a 4/5 dimension.
+-   LLMs usually give your project a higher score than it deserves.
+    -   LLMs cannot know whether your `CONTRIBUTING.md` is tested or CI actually blocks merges.
+
+## What about AI?
+
+<ul>
+  <li class="yes">LLM tools can flag semantic bugs and security issues in a first pass</li>
+  <li class="no">LLMs can summarize what a PR actually changes versus what it claims it changes</li>
+  <li class="no">LLM commit messages are often fluent but inaccurate</li>
+</ul>
+
+```{.include}
+_dependencies.qmd
+_project_audit.qmd
+_action_planning.qmd
+```

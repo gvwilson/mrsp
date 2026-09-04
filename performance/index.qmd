@@ -6,10 +6,10 @@ subtitle: "helping people do their best work"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
--   Give specific, actionable feedback using a structured format.
--   Run a useful performance review rather than a compliance exercise.
--   Help staff identify and pursue realistic career development goals.
+-   Know how to give specific, actionable feedback using Situation/Behavior/Impact.
+-   Explain why regular one-to-one meetings are more useful than annual performance reviews.
+-   Describe several forms that on-the-job training can take.
+-   Describe the key components of a career development conversation.
 
 :::
 
@@ -66,7 +66,7 @@ The discomfort before the conversation is almost always worse than the conversat
 ## Performance Reviews
 
 Annual performance reviews are often described as a management best practice.
-In practice, most of them are a compliance exercise:
+In reality, most of them are a compliance exercise:
 a form gets filled out,
 a box gets checked,
 and nobody's behavior changes.
@@ -129,7 +129,7 @@ job is not to continue the conversation,
 but to escalate to HR and begin the documentation trail that a termination decision will require.
 This is not a failure of management:
 it is the normal end of a process that sometimes leads there.
-The [previous lesson](../hirefire/index.qmd) describes how to do this.
+The [next lesson](../hirefire/index.qmd) describes how to do this.
 
 ## Training and Skill Development
 
@@ -222,61 +222,16 @@ and about what you have seen work elsewhere.
     (This is a great way to destroy the person's trust in their manager.)
 
 -   Negative:
-    Courses generated or curated by LLMs have a specific failure mode:
+    Plans generated or curated by LLMs have a specific failure mode:
     they teach skills that were valuable when the training data was collected,
     not necessarily now.
     An LLM-generated learning path for "modern Python"
     may emphasize patterns that were best practice three years ago.
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _three_people.qmd >}}
 
-### Three Team Members (5 min)
+{{< exercise _role_play.qmd >}}
 
-The points below describe three people who are in trouble of different kinds.
-With a partner,
-come up with at least one more possible explanation for each scenario,
-and explain how you would figure out which is most accurate.
-
-1.  Someone who does good work is missing every deadline:
-    is it a time-management problem or a scope problem?
-
-1.  Someone keeps expanding the scope of their assignments:
-    is this poor design and estimation or is personal curiosity getting the better of them?
-
-1.  Someone has stopped communicating without explanation:
-    are they no longer interested in the work,
-    is there something going on in their personal life?
-
-
- 
-### Feedback Role-Play (8 min)
-
-Prompt the LLM with this:
-
-> Play the role of a junior programmer on my research software team.
-> I'm going to give you feedback about a real situation.
-> Respond in character:
-> push back if the feedback is vague, accept it if it's specific and fair.
-> Here's the situation:
-> [describe a real or plausible scenario where you needed to give someone feedback
-> but found it difficult].
-
-Have the feedback conversation using the SBI format.
-If the LLM accepts your first attempt without pushback,
-your feedback was too vague,
-so try prompting it with more specifics.
-
-
-
-### Career Conversation (7 min)
-
-Think of someone on your team or someone you manage in a volunteer project.
-Write answers to these two questions as if you were that person:
-
--   Where do I want to be professionally in two years?
--   What would need to be true for me to get there?
-
-Then switch perspective:
-write one thing the project could offer that would help them move toward that goal,
-and one honest constraint you would need to name.
+{{< exercise _career_conversation.qmd >}}

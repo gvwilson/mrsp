@@ -1,0 +1,42 @@
+---
+title: Introduction
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Explain how research software differs from commercial software.
+-   Describe what a manager of a research software team is responsible for.
+-   Identify the decisions a team lead must make.
+-   Recognize how the workshop is organized around a running example.
+
+## How Research Software Differs
+
+-   Contributors are usually users, and volunteers rather than employees.
+-   Project life cycles are tied to grant cycles.
+-   "Done" is shaped by publication rather than revenue.
+-   A feature is finished when it appears in a publication, not when a pull request merges.
+
+## What the Workshop Covers
+
+-   Ideas and tools for managing a team of up to a dozen people.
+-   How to build research software as a team.
+-   What to know when you are responsible for other people's output.
+-   Ideas drawn from commercial product development.
+
+## The Learner Persona
+
+-   Jess, 31, completed a PhD in ecology and works for a national lab.
+-   Her grad school software is used by two dozen research groups.
+-   Contributors send fixes and extensions of varying quality.
+-   She now manages a post-doc and a junior programmer.
+
+## A Note on AI
+
+Some exercises ask you to interact with LLMs.
+We recognize that many people have concerns about these tools,
+and that they are still so new that nobody's really sure how to use them.
+We are therefore especially grateful for feedback on these parts of the material.

@@ -1,0 +1,68 @@
+---
+title: Hiring and Firing
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Describe the most common mistakes in hiring for a research software position.
+-   Understand why and how to create a structured onboarding plan.
+-   Know how to protect yourself if you are the one being let go.
+
+## Hiring Basics
+
+-   Talk to Human Resources before doing anything else.
+-   Always post positions publicly, even if you think you know who you want.
+-   Publish a salary band before applications open.
+-   Describe the actual job so both sides understand it.
+
+## Interviewing
+
+-   Interviewers overrate performance under artificial pressure.
+-   They underrate communication skills and documentation habits.
+-   Social legibility favors candidates from networks the interviewer recognizes.
+-   Prefer work samples over whiteboard problems, and pay candidates for their time.
+-   Good work samples mirror what the job actually involves.
+
+## Onboarding
+
+-   A new hire who leaves after three months costs more than hiring saved.
+-   Week one: get, build, and run all of the software.
+-   Week two: complete one small task with close supervision.
+-   Month one: first significant pull request reviewed and merged.
+-   Newcomers are good at updating documentation and refreshing examples.
+
+## Firing
+
+-   Talk to HR before telling anyone on your team.
+-   Check with someone outside the project who has no stake in the outcome.
+-   Create a transition plan with immediate steps like passwords and permissions.
+-   No surprises: give clear warnings and a genuine chance to improve.
+-   Keep the delivery short and stick to practical matters.
+-   Tell the team briefly and factually, and keep a written record.
+
+## Being Fired
+
+-   You are not a lawyer: do not cite specific laws unless a lawyer tells you to.
+-   Keep public statements brief and factual.
+-   Correct mistakes publicly with a timestamped correction, not an edit.
+-   Be honest about your own failings.
+-   Do not sign away your right to speak about moral or legal concerns.
+-   Do not expect the organization to admit it was wrong.
+
+## What about AI?
+
+<ul>
+  <li class="yes">LLMs can check job posting requirements for internal consistency</li>
+  <li class="no">LLM cover letters make polished applications cheap, lowering their signal value</li>
+  <li class="no">LLM resume screening can introduce and amplify bias</li>
+  <li class="no">LLM-prepared candidates often do well on expected questions and poorly on follow-ups</li>
+</ul>
+
+```{.include}
+_hiring_brief.qmd
+_transition_plan.qmd
+```

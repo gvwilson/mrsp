@@ -1,0 +1,42 @@
+---
+title: Succession and Endings
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Assess your project's lottery factor and identify single points of failure.
+-   Write a one-page advance directive for your project.
+-   Begin a succession plan for your own role.
+
+## The Lottery Factor
+
+-   How many people have to be unavailable in order for the project to halt?
+-   Most research projects have a lottery factor of one for most functions.
+-   Most leads do not find out until the person leaves.
+
+## Preparing for Transitions
+
+-   Preparing for a transition means making project health independent of individuals.
+    -   Grant cycles give succession planning a natural calendar.
+-   Minimum version for an ongoing project has three parts:
+    -   A shared credentials document.
+    -   A release checklist.
+    -   An advance directive.
+
+## If It Happens
+
+-   Don't announce shutdown immediately.
+-   Instead, announce that you are stopping work and invite people you know to take over.
+    -   Only people you know because of the risk of supply chain attacks.
+-   If no one is willing to take over, try to give users 2-6 months.
+-   Broadcast on all available channels.
+-   Tell people why, and what will happen to the project's assets.
+
+```{.include}
+_lottery_factor.qmd
+_advance_directive.qmd
+```

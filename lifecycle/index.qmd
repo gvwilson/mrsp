@@ -6,10 +6,8 @@ subtitle: "planning for endings before they're emergencies"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
--   Assess your project's lottery factor and identify single points of failure.
--   Write a one-page advance directive for your project.
--   Begin a succession plan for your own role.
+-   Explain how to assess a project's lottery factor.
+-   Describe how a project should prepare for possible shutdown.
 
 :::
 
@@ -58,7 +56,7 @@ A shared credentials document
 
 A release checklist
 :   The exact steps to make a release—including how to update the version number
-    following {{< g semantic-versioning "semantic versioning" >}}—with enough detail
+    following {{<g semantic-versioning "semantic versioning" >}}—with enough detail
     that someone who has never done it can follow the checklist and succeed.
     Run through it with a second person or an LLM before you need to.
     The moment you need to use it for real is not the moment to discover that
@@ -83,6 +81,24 @@ not the person who already knows how everything works.
 
 :::
 
+## If It Happens
+
+If your project *does* have to shut down,
+don't announce that immediately.
+Instead,
+announce that you are stopping work and invite known successors to take over.
+(Don't accept successors you don't already know:
+it introduces the possibility of a supply-chain attack.)
+
+If no one is willing to take over,
+try to give users real deadlines and enough time to act:
+two to six months between announcement and shutdown is more than fair.
+Use all of the project's channels,
+not just the repository's README or project home page:
+the latter reach core project members, not the wider circle.
+And if you can,
+tell people why, and what will happen to the project's assets.
+
 ## After
 
 Jess spent two afternoons with Tahia documenting the release process and the HPC configuration.
@@ -94,29 +110,8 @@ The documentation surfaced both problems before they became emergencies.
 Tahia ended up staying for another year,
 but the project was no longer fragile in the same way.
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _lottery_factor.qmd >}}
 
-### Lottery Factor Audit (10 min)
-
-Answer these questions for your project:
-
-1.  Who can create a release?
-2.  Which credentials exist only on someone's personal account rather than a shared project account?
-3.  What would your project be unable to do if you were unavailable for three months?
-4.  What would be unrecoverable if a key team member left without any notice?
-
-
-
-### Write Your Advance Directive (10 min)
-
-Write a one-page document covering:
-
--   The conditions under which this project should be wound down
-    (not just "when funding runs out" but specific observable signals:
-    contributor count, response time to issues, number of active users).
--   Who has the authority to make that call.
--   What assets must be preserved before shutdown is complete.
--   What obligations must be honored before the project can be considered closed.
-
-Give the document to an LLM and prompt it to identify three realistic scenarios it doesn't cover.
+{{< exercise _advance_directive.qmd >}}

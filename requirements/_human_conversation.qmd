@@ -1,0 +1,12 @@
+## Human Requirements Conversation (10 min) {.exercise}
+
+Switch to a real partner.
+Pick a different feature request from your backlog.
+One person is the user, the other is the product manager.
+
+1.  Ask five questions before proposing anything.
+    Write the requirement sentence.
+
+2.  Compare the two conversations.
+    What did the real person tell you that the LLM couldn't?
+    What did the LLM simulate well?

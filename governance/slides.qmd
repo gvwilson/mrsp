@@ -1,0 +1,79 @@
+---
+title: Governance
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Describe two ways informal decision-making fails as projects grow.
+-   Describe Martha's Rules and explain when they are appropriate.
+
+## Why Informal Governance Fails
+
+-   Informal groups always have power structures, just invisible and unaccountable.
+-   About 80% of GitHub projects are hero projects.
+    -   5% or fewer of contributors account for 95% of interactions.
+-   Decisions should not be made by the loudest voices.
+-   Transparency attracts and keeps contributors.
+
+## A Governance Statement
+
+-   Every project needs written answers to three questions.
+    1.  Who gets a vote on what?
+    2.  How are decisions recorded and communicated?
+    3.  How does someone without a vote raise a concern?
+-   Research projects must also decide authorship order and release approval.
+
+## Martha's Rules
+
+-   Proposals are filed at least 24 hours before a meeting.
+-   A proposal is at most one page: summary, proposal, pros and cons, alternatives.
+-   Members cast a sense vote: support, neutral, or oppose.
+-   If everyone supports or is neutral, the motion passes.
+-   Opposition triggers 10 minutes of discussion followed by a binary vote.
+-   Decisions go in a public decision log.
+
+## Meetings as Governance
+
+-   Agendas with time allocations sent in advance.
+-   A rotating facilitator and a designated note-taker.
+-   A public decision log makes behavior visible and predictable.
+-   Status updates in "progress, plans, problems" format.
+-   Managers provide context and priorities.
+
+## Externals and Escalation
+
+-   Say how external contributors can make proposals or escalate concerns.
+-   Say when someone who has submitted pull requests can vote.
+-   Omitting this is equivalent to "maintainers decide and contributors live with it".
+-   Spell out the appeal process, or say clearly that there isn't one.
+
+## Credit
+
+-   Three questions get confused:
+    1.  Who wrote the code?
+    2.  Who gets credit for the software?
+    3.  Who is an author on the paper?
+-   `git log` records code but not reviews and other contributions.
+
+## As a Manager
+
+-   Write down what qualifies someone for authorship *before anyone asks*.
+-   Keep a `CONTRIBUTORS.md` file up to date.
+
+## What about AI?
+
+<ul>
+  <li class="yes">LLM summaries can surface points of disagreement before a meeting</li>
+  <li class="no">LLM-drafted position statements look equally authoritative regardless of evidence</li>
+  <li class="no">LLM governance documents can omit the operational detail that makes them useful</li>
+</ul>
+
+```{.include}
+_governance_statement.qmd
+_authorship_policy.qmd
+_stress_test.qmd
+```

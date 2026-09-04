@@ -1,0 +1,16 @@
+## Compliance Check (7 min) {.exercise}
+
+Repeat the audit using an LLM:
+
+> Review my project's practices against this checklist: [paste checklist items].
+
+> Based on what I tell you about my project
+> [two or three sentences describing the project, its data, and its contributors],
+> identify which compliance issues I should investigate.
+
+Run the prompt.
+Note what the LLM confidently asserted that it cannot actually know,
+such as your institution's specific policies,
+or your jurisdiction's legal requirements.
+(It *may* be able to say useful things about data sharing agreements
+if those are in the repository.)

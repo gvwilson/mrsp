@@ -1,0 +1,20 @@
+## Translate a Technical Decision (10 min) {.exercise}
+
+Think of a technical decision your project has made or needs to make,
+such as refactoring a module or switching a dependency.
+Prompt an LLM with something like this:
+
+> I need to explain a technical decision to a non-technical supervisor.
+> The decision is [describe it].
+> The technical justification is [one or two sentences].
+> Write a two-paragraph explanation that describes the decision in terms of risk,
+> reliability, and impact rather than technical detail.
+
+1.  Run the prompt and read the output.
+    Does it describe the trade-off clearly?
+    Does it use any technical terms your supervisor wouldn't know?
+
+1.  Rewrite the explanation for your actual supervisor,
+    based on what they actually care about.
+    What would make them say yes?
+    What would make them say "let's wait until next quarter"?

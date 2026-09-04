@@ -1,0 +1,65 @@
+---
+title: Managing the Work
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Explain what "project management" looks like for a small research team.
+-   Describe the progress/plans/problems format for status reports.
+-   Explain how to manage a work backlog and when and how to cut items from it.
+
+## Knowing Who Is Doing What
+
+-   Project management at this scale is knowing who does what and what blocks them.
+-   The manager's job is to remove obstacles, not assign tasks.
+-   The Monday morning check-in reveals when someone is stuck.
+-   The planning meeting matters less than the check-in.
+
+## The Three-Column Status Update
+
+-   Progress: what they finished since last time.
+-   Plans: what they will finish before next time.
+-   Problems: what is blocking them, or might.
+-   The meeting discusses Problems; Progress and Plans are read.
+-   If the leader cannot resolve a problem, they must escalate it.
+
+## Making Issues Work
+
+-   Each issue needs an owner, a milestone, and a time estimate.
+-   Someday/maybe items get a backlog label, not a milestone slot.
+-   Close issues when the work is done, not when the PR merges.
+-   Research artifacts belong in the same tracker.
+-   Triage newly filed issues at least once a week.
+
+## Cutting
+
+-   Cutting scope feels like failure but deferring the cut costs more.
+-   If a feature is 80% done and blocking a release, options are delay, ship incomplete, or cut.
+-   Deciding to cut two weeks late is always more expensive.
+
+## Estimation
+
+-   You can't estimate accurately unless you collect data to tell you how accurate past estimates were.
+    -   Which most teams aren't going to do.
+-   The smaller the task, the smaller the relative error.
+    -   So break things down in order to make estimation more rewarding.
+-   Distinguish a wrong estimate from a choice to solve a related problem.
+    -   The second kind of change should trigger a conversation.
+
+## What about AI?
+
+<ul>
+  <li class="yes">LLM sprint tools can estimate complexity and flag hidden dependencies</li>
+  <li class="no">LLM task tools optimize for issues closed, not correctness or maintainability</li>
+  <li class="no">LLM prioritization nudges teams toward many small issues over deep problems</li>
+  <li class="no">Cutting is harder because saying no is not automated</li>
+</ul>
+
+```{.include}
+_status_update.qmd
+_create_milestone.qmd
+```

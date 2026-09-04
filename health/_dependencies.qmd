@@ -1,0 +1,5 @@
+## Dependencies (5 min) {.exercise}
+
+Sort the six dimensions in the order in which you think they should be tackled.
+Compare your order to other people's.
+Are any of the differences important?

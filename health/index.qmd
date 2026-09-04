@@ -6,7 +6,6 @@ subtitle: "a baseline to start from"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
 -   Name the six dimensions of a minimum viable research software project.
 -   Score your own project on each dimension.
 -   Identify the highest-priority gaps.
@@ -33,45 +32,45 @@ and most researchers don't find out until someone like Aaron emails them.
 
 You can use these six dimensions to assess the state of your project:
 
-{{< g findability "Findability" >}}
-:   The project has a {{< g doi "DOI" >}} and a `CITATION.cff` file,
+{{<g findability "Findability" >}}
+:   The project has a {{<g doi "DOI" >}} and a `CITATION.cff` file,
     is listed in at least one relevant registry,
-    and follows the {{< g fair "FAIR Principles" >}} for findable, accessible, interoperable,
+    and follows the {{<g fair "FAIR Principles" >}} for findable, accessible, interoperable,
     and reusable data [@Lin2020; @Wilkinson2016].
     Without these,
     two groups will independently build the same tool,
     and neither will find the other until years later.
 
-{{< g reproducibility "Reproducibility" >}}
-:   Dependencies are {{< g pin-dependencies "pinned" >}},
-    the project runs inside a {{< g virtual-environment "virtual environment" >}} or {{< g container "container" >}},
+{{<g reproducibility "Reproducibility" >}}
+:   Dependencies are {{<g pin-dependencies "pinned" >}},
+    the project runs inside a {{<g virtual-environment "virtual environment" >}} or {{<g container "container" >}},
     and there is a script that re-runs the whole analysis from raw data
-    with a fixed {{< g rng-seed "seed" >}} for any stochastic steps [@Taschuk2017].
+    with a fixed {{<g rng-seed "seed" >}} for any stochastic steps [@Taschuk2017].
     Without this,
     collaborators can't run the code or check results.
 
-{{< g testability "Testability" >}}
-:   Automated tests exist and are run on every change via {{< g ci "continuous integration" >}} (CI).
+{{<g testability "Testability" >}}
+:   Automated tests exist and are run on every change via {{<g ci "continuous integration" >}} (CI).
     Without this, every fix can introduce new bugs.
-    (You may or may not track test {{< g test-coverage "test coverage" >}};
+    (You may or may not track test {{<g test-coverage "test coverage" >}};
     if you do,
     you keep track so that it doesn't quietly decline.)
 
-{{< g contribution-pathway "Contribution Pathway" >}}
+{{<g contribution-pathway "Contribution Pathway" >}}
 :   There is a `CONTRIBUTING.md` that a stranger could follow,
     issues are labeled so newcomers can find things to do,
     and the process for submitting and reviewing pull requests is written down.
     Without this, potential contributors will quickly give up.
 
-{{< g governance "Governance" >}}
+{{<g governance "Governance" >}}
 :   There are written rules for who decides what and how those decisions are made public.
     Without this,
     decisions get made by whoever shouts loudest or gives up last.
 
-{{< g sustainability "Sustainability" >}}
+{{<g sustainability "Sustainability" >}}
 :   More than one person can make a release,
-    the {{< g lottery-factory "lottery factor" >}} is documented,
-    and there is a {{< g succession-plan "succession plan" >}}.
+    the {{<g lottery-factory "lottery factor" >}} is documented,
+    and there is a {{<g succession-plan "succession plan" >}}.
     Without this, the project dies when the post-doc graduates.
 
 These dimensions are *not* independent.
@@ -142,38 +141,10 @@ governance feels unnecessary until the moment it isn't.
     the ratio of PRs whose descriptions were validated
     against tests that actually cover the claimed behavior.
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _dependencies.qmd >}}
 
-### Dependencies (5 min)
+{{< exercise _project_audit.qmd >}}
 
-Sort the six dimensions in the order in which you think they should be tackled.
-Compare your order to other people's.
-Are any of the differences important?
-
-
-
-### Project Audit (15 min)
-
-Using the six-dimension rubric, score your project.
-Include evidence for each dimension,
-(e.g., the URL of the governance description).
-Repeat the audit using an LLM:
-
-> I have a research software project called [name].
-> It does [one sentence].
-> Its repository is [URL if public].
-> Score it on these six dimensions and explain each score:
-> findability, reproducibility, testability,
-> contribution pathway, governance, sustainability.
-
-Where does the LLM seem to have assumed something exists that you know doesn't?
-Where do the LLM's scores differ from yours by more than one point?
-
-
-
-### Action Planning (5 min)
-
-1.  Identify the two dimensions with the largest gaps.
-
-2.  Write one concrete action you could take in the next two weeks to raise the score.
+{{< exercise _action_planning.qmd >}}

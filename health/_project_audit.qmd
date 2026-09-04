@@ -1,0 +1,16 @@
+## Project Audit (15 min) {.exercise}
+
+Using the six-dimension rubric, score your project.
+Include evidence for each dimension,
+(e.g., the URL of the governance description).
+Repeat the audit using an LLM:
+
+> I have a research software project called [name].
+> It does [one sentence].
+> Its repository is [URL if public].
+> Score it on these six dimensions and explain each score:
+> findability, reproducibility, testability,
+> contribution pathway, governance, sustainability.
+
+Where does the LLM seem to have assumed something exists that you know doesn't?
+Where do the LLM's scores differ from yours by more than one point?

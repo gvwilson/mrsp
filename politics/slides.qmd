@@ -1,0 +1,50 @@
+---
+title: Office Politics
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Recognize that every organization is political
+    and that "we don't do politics here" is itself a political position.
+-   Identify who holds meaningful power over a decision
+    by asking whose support the decision-maker actually needs.
+-   Explain which "political" skills predict job success.
+
+## Politics Is Not Optional
+
+-   Politics is "who gets what, when, how".
+-   It has no implication that the process is fair or democratic.
+-   The alternative to politics is coercion, not harmony.
+-   "We don't do politics here" usually means someone has already won.
+
+## Selectorate Theory
+
+-   Leaders need enough support to stay in power.
+-   They distribute benefits to a minimum necessary winning coalition.
+-   Everyone else is the selectorate: large but not powerful.
+-   Funded features and approved hires reflect someone's winning coalition.
+-   Identifying that coalition is more useful than making a better technical argument.
+
+## Acting on This
+
+-   Political skills predict career advancement more than technical competence.
+-   Advocating for yourself and seeking allies is ordinary, healthy behavior.
+-   So is timing proposals for when decision-makers are receptive.
+-   Explain issues in terms decision-makers care about (which usually isn't code quality).
+    -   Refusing to do this is a practical error while feeling virtuous.
+
+## What about AI?
+
+<ul>
+  <li class="no">LLMs make it easy to produce volumes of professional-sounding position papers</li>
+  <li class="no">LLM text degrades the signals of the author's actual state</li>
+</ul>
+
+```{.include}
+_map_coalition.qmd
+_rewrite_argument.qmd
+```

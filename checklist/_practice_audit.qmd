@@ -1,0 +1,12 @@
+## Practice Audit (8 min) {.exercise}
+
+Go through the practices checklist provided earlier.
+Mark each item: yes (with evidence), probably, no, or don't know.
+
+1.  For each "yes", write one sentence of evidence:
+    Not "we use CI" but
+    "CI is configured in `.github/workflows/` and the badge on the README shows current status".
+
+2.  For each "don't know",
+    write the name of one person on your team who does know.
+    If you don't know who knows, write that too.

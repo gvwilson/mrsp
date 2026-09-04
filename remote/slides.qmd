@@ -1,0 +1,52 @@
+---
+title: Remote Collaboration
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Identify the specific failure modes of distributed research software teams.
+-   Explain what async-first management means in practice.
+
+## Failure Modes of Distributed Teams
+
+-   Review latency: PRs waiting over two days discourage contribution.
+-   Synchronous-first culture excludes anyone who cannot attend the meeting.
+-   Invisible contribution: review and triage leave less trace than code.
+-   Trust has to be built deliberately without incidental contact.
+-   Data-access constraints: code may travel but data may not.
+-   Seasonal absences from teaching, fieldwork, and conferences vary.
+
+## Async-First in Practice
+
+-   Async-first does not mean no meetings.
+    -   Meetings are for things that genuinely need real-time discussion.
+-   Decisions are written down before they are acted on.
+-   Code review responses are expected within two days.
+    -   Two *working* days.
+-   Status updates are written, not spoken.
+-   Questions asked in writing get answers in the same thread.
+
+## Mixed-Mode Meetings
+
+-   Virtual meetings broaden participation across geography and career stage.
+-   But in mixed-mode meetings, people in the room dominate by default.
+-   If you cannot have everyone in person, have everyone remote.
+-   All-remote meetings are usually shorter.
+    -   And fairer, if the moderator does their job properly.
+
+## What about AI?
+
+<ul>
+  <li class="yes">LLM meeting summarizers can produce accurate action-item lists</li>
+  <li class="no">LLM summaries flatten nuance and lose hedging language</li>
+  <li class="no">Relying on LLM summaries loses the social texture that reveals struggle</li>
+</ul>
+
+```{.include}
+_communication_audit.qmd
+_communication_structure.qmd
+```

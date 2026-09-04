@@ -15,8 +15,8 @@ book:
     - governance/index.qmd
     - marketing/index.qmd
     - requirements/index.qmd
-    - hirefire/index.qmd
     - performance/index.qmd
+    - hirefire/index.qmd
     - project/index.qmd
     - upward/index.qmd
     - safety/index.qmd
@@ -45,6 +45,7 @@ filters:
   - mccole/links.lua
 
 shortcodes:
+  - mccole/ex-book.lua
   - mccole/glossary.lua
   - mccole/inc-noh1.lua
 

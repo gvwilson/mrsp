@@ -1,0 +1,23 @@
+## Diagnose Your Team (10 min) {.exercise}
+
+Prompt the LLM like this:
+
+> I manage a small research software team of [N] people.
+> I'm trying to assess whether psychological safety is an issue.
+> Based on the following observable behaviors,
+> tell me which are warning signs and which are neutral:
+> [list three to five things you've observed recently in your team,
+> e.g., "problems come to me late",
+> "the same person dominates code review discussions",
+> or "nobody has disagreed with a technical decision in months"].
+
+Steps:
+
+1.  Run the prompt. Note what the LLM flagged as warning signs and whether
+    you agree.
+
+1.  Individually, write:
+    -   One behavior from your team that might indicate low psychological safety.
+    -   One thing you have said or done in the last month that could have made it
+        less safe to bring you problems.
+    -   One change you will make in how you respond to bad news.

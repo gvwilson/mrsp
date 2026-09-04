@@ -6,10 +6,7 @@ subtitle: "the relationship that controls your freedom to act"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
--   Translate technical decisions into language non-technical decision-makers can act on.
--   Push back on requests you can't fulfill without losing credibility.
--   Frame resource requests in terms of impact rather than effort.
+-   Describe three practices for managing your manager.
 
 :::
 
@@ -93,60 +90,10 @@ Her supervisor stopped adding items without asking about capacity first.
 The conversation shifted from "here are more things to do"
 to "here is the trade-off I'm asking you to make".
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _translate.qmd >}}
 
-### Translate a Technical Decision (10 min)
+{{< exercise _alternative_offer.qmd >}}
 
-Think of a technical decision your project has made or needs to make,
-such as refactoring a module or switching a dependency.
-Prompt an LLM with something like this:
-
-> I need to explain a technical decision to a non-technical supervisor.
-> The decision is [describe it].
-> The technical justification is [one or two sentences].
-> Write a two-paragraph explanation that describes the decision in terms of risk,
-> reliability, and impact rather than technical detail.
-
-1.  Run the prompt and read the output.
-    Does it describe the trade-off clearly?
-    Does it use any technical terms your supervisor wouldn't know?
-
-1.  Rewrite the explanation for your actual supervisor,
-    based on what they actually care about.
-    What would make them say yes?
-    What would make them say "let's wait until next quarter"?
-reader.
-
-
-
-### The Alternative Offer (10 min)
-
-1.  Work in pairs.
-    One person plays a manager who has just asked for something unreasonable
-    (use a real example from your own work, or use Jess's situation).
-    The other person practices saying no by offering an alternative.
-    You cannot say "that's not possible" or "we don't have time";
-    you must frame your response as, "I can do [X] if we [trade-off]."
-
-1.  Repeat the exercise using an LLM as your manager.
-    What prompt did you give it?
-    Was its output useful for helping you practice for a real conversation?
-
-
-
-### Choosing a Course Correction (15 min)
-
-Your project is four weeks from its deadline and you have just realized you are six weeks behind.
-Three options are on the table:
-
-1.  Slip the deadline by two weeks and ask your funder for an extension.
-2.  Cut two half-finished features and ship the remaining ones complete.
-3.  Keep the deadline, ship what you have, and send users a patch in six weeks.
-
-Write two or three sentences for each option describing what it will cost the team,
-what it will cost the users or stakeholders,
-and what it will signal to your manager about how you handle pressure.
-Compare your answers to a partner's.
-Did you rank the options the same way?
-If not, what assumptions led you to different conclusions?
+{{< exercise _course_correction.qmd >}}

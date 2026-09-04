@@ -1,0 +1,56 @@
+---
+title: Psychological Safety
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Describe what psychological safety is and why it predicts team performance.
+-   Identify specific behaviors that create or destroy it.
+
+## What Psychological Safety Is
+
+-   The shared belief that it is safe to take interpersonal risks.
+-   It is the strongest predictor of team learning behavior.
+-   High-safety teams admit errors, ask questions, and flag problems early.
+-   Low-safety teams miss more problems and learn less from them.
+-   Safety is not niceness or the absence of conflict.
+
+## What Managers Do That Destroys It
+
+-   Responding to bad news with visible frustration.
+-   Dismissing questions in public.
+-   Solving someone's problem for them instead of helping them solve it.
+-   Only seeking input from the same small number of people.
+-   Changing direction without explaining why.
+
+## Why Researchers Stay Silent
+
+-   Fear of being scooped by a competing lab.
+-   Fear that asking questions signals you cannot do the science.
+-   Fear of challenging the PI who controls funding, authorship, and references.
+-   These are real power differences, not paranoia.
+
+## What Managers Do to Build It
+
+-   Respond to bad news with curiosity rather than frustration.
+-   Acknowledge your own mistakes and what you learned.
+-   Ask for input explicitly from people who have not spoken.
+-   Ask what they already tried before offering a solution.
+-   Close the loop when a flagged risk turns out to be real.
+
+## Measuring It
+
+-   You cannot survey your team and expect an honest answer about safety.
+-   Use behavioral proxies instead.
+    -   How quickly do problems surface?
+    -   How often do people ask questions in meetings?
+    -   How often do retrospectives repeat the same items?
+
+```{.include}
+_diagnose_team.qmd
+_practice_responding.qmd
+```

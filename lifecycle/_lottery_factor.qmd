@@ -1,0 +1,8 @@
+## Lottery Factor Audit (10 min) {.exercise}
+
+Answer these questions for your project:
+
+1.  Who can create a release?
+2.  Which credentials exist only on someone's personal account rather than a shared project account?
+3.  What would your project be unable to do if you were unavailable for three months?
+4.  What would be unrecoverable if a key team member left without any notice?

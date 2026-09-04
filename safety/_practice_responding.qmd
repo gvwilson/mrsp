@@ -1,0 +1,12 @@
+## Practice Responding (10 min) {.exercise}
+
+1.  In pairs: one person describes a realistic bad-news scenario,
+    such as a test suite has been silently failing for two weeks.
+    The other person practices responding in a way
+    that makes it more likely the person will bring problems sooner next time.
+
+2.  Switch roles.
+    Observers: note one phrase the manager used
+     that would make you more likely to bring problems early,
+    and one that would make you less likely.
+    Compare your answers with those given by the LLM in the previous exercise.

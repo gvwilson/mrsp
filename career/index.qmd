@@ -6,10 +6,8 @@ subtitle: "growth that the institution hasn't named yet"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
--   Describe what career growth means for someone on a non-standard research software track.
--   Conduct a career conversation with a team member whose goals differ from yours.
--   Identify one concrete way to advocate for a team member's recognition.
+-   Describe what career growth means for someone on a research software track.
+-   Describe what a useful career conversation covers.
 
 :::
 
@@ -92,43 +90,8 @@ in a field that doesn't have standard career signals for what they do.
 
 :::
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _career_conversation.qmd >}}
 
-### Career Conversation Practice (12 min)
-
-Prompt the LLM like this:
-
-> Play the role of a junior RSE who has been maintaining a research software project for two years.
-> You want to advance in your career but you're not sure what that means
-> in your institutional context.
-> Answer my questions about your goals in character.
-> Your specific situation: [describe one detail about their background or ambition].
-
-1.  Ask the LLM what does success look like? What's in your way? What would help?
-
-1.  Based on the conversation,
-    write three concrete things the project could offer toward this person's goals.
-    Be specific: not "support their development"
-    but "submit a software paper with them as first author in Q2".
-
-3.  What did the LLM get right? What did it get wrong?
-    (The most common failure is it not knowing what constraints actually exist at your institution,
-    e.g., what counts for promotion or what authorship norms are in your field.)
-
-
-
-### Advocacy Audit (8 min)
-
-Individually:
-
-1.  List the team members you manage or work closely with.
-
-2.  For each person,
-    write one concrete thing you have done in the last six months to make their contributions visible
-    to people outside the project,
-    such as a reference letter, a conference submission, a mention in a talk,
-    or a nomination for an award.
-
-3.  For anyone where your list is blank:
-    write one specific thing you could do in the next 30 days.
+{{< exercise _advocacy_audit.qmd >}}

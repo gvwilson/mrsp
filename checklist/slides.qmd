@@ -1,0 +1,58 @@
+---
+title: Checklists
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Reframe individual-contributor technical practices as management responsibilities.
+-   Distinguish between claiming a practice is followed and having evidence it is followed.
+-   Identify the compliance and safety obligations most likely to apply to your project.
+
+## Trust, But Verify
+
+-   As team lead, your job is to make the team follow practices consistently.
+-   Individual contributors can rely on their own habits.
+-   Managers cannot rely on anyone's habits, especially under pressure.
+-   A checklist protects against the predictable effects of stress and distraction.
+
+## Claims vs. Evidence
+
+-   "We use code review" is a claim.
+-   "Every PR has an approval before merge" is checkable evidence.
+-   Funders, compliance officers, and collaborators may ask for evidence.
+-   An audit trail prevents mishaps; it is not surveillance.
+
+## Practices to Verify
+
+-   Version control: commits explain why, and no secrets or credentials are committed.
+-   Code review: every merge has a reviewer who is not the author.
+-   Testing: unit tests run before merge and a failing CI build blocks the merge.
+-   Dependencies: versions are pinned and vulnerability reports are acted on.
+-   Documentation: every release has a changelog and a working README example.
+
+## Safety and Compliance
+
+-   Data privacy: touching human-subject data is data privacy territory even if the software is open.
+-   Ethics review: collecting or processing human-subject data may need review board approval.
+-   Data-use agreements: they may restrict who sees, stores, or redistributes data.
+-   Secrets in version control: rotation, not deletion, is the fix when accidents happen.
+-   Licensing: a GPL contribution can change the license of an MIT project.
+-   Export controls: accepting contributions from some countries may be regulated.
+
+## What about AI?
+
+<ul>
+  <li class="yes">LLMs can draft onboarding checklists from existing documentation</li>
+  <li class="yes">LLMs can catch gaps between what docs say and what the repo requires</li>
+  <li class="no">Contributors may fill PR checklists with LLM-suggested answers they did not run</li>
+</ul>
+
+```{.include}
+_how_to_check.qmd
+_practice_audit.qmd
+_compliance_check.qmd
+```

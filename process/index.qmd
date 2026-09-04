@@ -1,6 +1,6 @@
 # Development Process
 
-A {{< g project-manager "project manager" >}}'s job is not to assign tasks but to
+A {{<g project-manager "project manager" >}}'s job is not to assign tasks but to
 remove obstacles—which means understanding how work actually flows through a
 team. Over the past fifty years, researchers and practitioners have described
 dozens of development processes. Most have passionate advocates and equally
@@ -23,7 +23,7 @@ lightweight practices that make progress and blockers visible.
 
 ## Agile for Research Software Teams
 
-{{< g devops "Agile" >}} development broke down work into short cycles, typically
+{{<g devops "Agile" >}} development broke down work into short cycles, typically
 one or two weeks, each of which produces something demonstrable. The most widely
 used flavor is Scrum, which organizes work around sprints. At the start of each
 sprint, the team agrees on what they will finish. During the sprint, a brief
@@ -45,7 +45,7 @@ every day for a week is not a stand-up; it's a warning sign.
 
 If you have a rough sense of what needs to be done over the next few months, a
 planning session at the start of each sprint is worth the time. The
-{{< g product-manager "product manager" >}} (who in a small lab is often you)
+{{<g product-manager "product manager" >}} (who in a small lab is often you)
 brings a prioritized list of desired work. The team discusses what's feasible in
 the sprint, makes estimates, and commits to a subset.
 

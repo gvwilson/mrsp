@@ -6,9 +6,8 @@ subtitle: "the decisions that define your team"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
 -   Describe the most common mistakes in hiring for a research software position.
--   Follow a structured process for letting someone go without making it worse.
+-   Understand why and how to create a structured onboarding plan.
 -   Know how to protect yourself if you are the one being let go.
 
 :::
@@ -54,7 +53,7 @@ and found that interviewers consistently overrate performance under artificial p
 and underrate communication skills and documentation habits.
 Hiring decisions also systematically favor candidates whose cultural references and manner
 signal membership in networks the interviewer recognizes—a form of
-{{< g social-legibility "social legibility" >}} that disadvantages equally qualified people from
+{{<g social-legibility "social legibility" >}} that disadvantages equally qualified people from
 different backgrounds [@Rivera2015].
 The person who freezes on a whiteboard problem
 but writes clear commit messages and asks good questions in code review
@@ -120,7 +119,7 @@ but they make it less likely to go badly.
 
 Talk to HR first.
 :   Every jurisdiction has rules about termination, and some offer
-    {{< g at-will-employment "at-will employment" >}} while others require documented cause.
+    {{<g at-will-employment "at-will employment" >}} while others require documented cause.
     Talk to Human Resources before doing anything else,
     including before telling anyone on your team that you're considering it.
     If your project is open source and the person is a volunteer contributor,
@@ -276,32 +275,8 @@ Cry if you need to.
     like "tell me about a time your code was wrong in a way you didn't expect and how you found it",
     can now be faked convincingly.
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _hiring_brief.qmd >}}
 
-### The Hiring Brief (10 min)
-
-Write the job description for the next hire on your team,
-thene check it against these questions:
-
--   Does it describe the actual work, or the ideal candidate?
--   Does it include a salary range?
--   Does it describe how candidates will be evaluated?
-
-Use an LLM to critique what you wrote:
-
-> I'm hiring a research software engineer for a small academic project.
-> Here is my draft job description.
-> Identify any language that might discourage qualified candidates from applying
-> or that signals poor hiring practices.
-
-
-
-### Transition Plan (8 min)
-
-Write a transition plan for the most critical role on your current team.
-The plan should include:
-
--   What knowledge or access only they currently hold
--   The steps needed to transfer or document that knowledge
--   The immediate actions required on their last day
+{{< exercise _transition_plan.qmd >}}

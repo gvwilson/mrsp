@@ -6,10 +6,8 @@ subtitle: "most of your contributors have never been in the same room"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
 -   Identify the specific failure modes of distributed research software teams.
--   Apply async-first practices to reduce latency and improve inclusion.
--   Design a communication structure that works across time zones.
+-   Explain what async-first management means in practice.
 
 :::
 
@@ -140,45 +138,8 @@ He said the previous silence had felt like indifference.
     LLM communication is efficient and affectless in a way
     that makes early warning signs harder to see.
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _communication_audit.qmd >}}
 
-### Communication Audit (10 min)
-
-Answer these questions for your project:
-
-1.  What is the longest a pull request or issue comment has gone without a response
-    in the last three months? What time zone was the contributor in?
-1.  When are your regular meetings scheduled? Which contributors can't attend at that
-    time without rearranging their workday?
-1.  Where are decisions made? Are they accessible to contributors who weren't in the
-    meeting?
-1.  Which contributors haven't engaged in the last month? What do you know about why?
-
-Then prompt an LLM like this:
-
-> I manage a distributed research software team with contributors in [list time zones].
-> Our current practices are [describe briefly].
-> What specific failure modes should I watch for,
-> and what are the three highest-priority changes to make?"
-
-Compare the LLM's suggestions to your audit answers.
-What did it get right?
-What did it get wrong because it lacked context about your specific project?
-
-
-
-### Design a Communication Structure (10 min)
-
-Design a communication structure for a team with contributors
-in at least three time zones.
-(Use your own project, or use Jess's team: Toronto, Rabat, Warsaw, and Seoul).
-Specify:
-
--   How often synchronous meetings happen and when (rotate or fixed?).
--   How decisions are made for things that can't wait for a meeting.
--   What the expected response time is for code reviews and issues.
--   How contributors who miss a meeting find out what was decided.
-
-Compare your structure with a partner's.
-Identify one thing they included that you missed.
+{{< exercise _communication_structure.qmd >}}

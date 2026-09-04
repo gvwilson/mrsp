@@ -1,0 +1,16 @@
+## Feedback Role-Play (8 min) {.exercise}
+
+Prompt the LLM with this:
+
+> Play the role of a junior programmer on my research software team.
+> I'm going to give you feedback about a real situation.
+> Respond in character:
+> push back if the feedback is vague, accept it if it's specific and fair.
+> Here's the situation:
+> [describe a real or plausible scenario where you needed to give someone feedback
+> but found it difficult].
+
+Have the feedback conversation using the SBI format.
+If the LLM accepts your first attempt without pushback,
+your feedback was too vague,
+so try prompting it with more specifics.

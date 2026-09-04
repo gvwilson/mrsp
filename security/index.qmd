@@ -11,19 +11,19 @@ bad news is that most projects never adopt them.
 Before deciding what to protect, you need to know what you are protecting
 against. The three most common threats for research software projects are:
 
-{{< g casual-threat "Casual threats" >}} are opportunistic. Someone notices that
+{{<g casual-threat "Casual threats" >}} are opportunistic. Someone notices that
 your project uses a public API key checked into GitHub and uses it to run compute
 jobs at your expense. Someone tries a list of common passwords against every
 account on your server. The attack isn't targeted; your project just happened to
 be vulnerable.
 
-{{< g intimate-threat "Intimate threats" >}} come from people who have legitimate
+{{<g intimate-threat "Intimate threats" >}} come from people who have legitimate
 access but abuse it. A departing collaborator copies data they shouldn't. A
 disgruntled contributor alters code in a way that's hard to detect. These are
 rarer but tend to cause more damage because the attacker already knows the
 systems.
 
-{{< g insider-threat "Insider threats" >}} from institutions—a university IT
+{{<g insider-threat "Insider threats" >}} from institutions—a university IT
 department with broad access, a cloud provider that can read your data—are
 usually covered by contract and policy rather than technical controls. Know what
 your institution's policies say.
@@ -36,21 +36,21 @@ for those, and you will also reduce your exposure to the other two.
 Weak passwords are the single most common point of failure. A few rules that
 actually help:
 
-Use a {{< g password-manager "password manager" >}}.
+Use a {{<g password-manager "password manager" >}}.
 :   Generate a unique random password for every service. Yes, this means you
     won't be able to remember them. That's the point. If you can remember a
     password, an attacker can probably guess it.
 
-Use a {{< g passphrase "passphrase" >}} for anything you have to type from memory.
+Use a {{<g passphrase "passphrase" >}} for anything you have to type from memory.
 :   Four unrelated words strung together ("correct horse battery staple") are
     both more memorable and harder to crack than a short password with
     substitutions.
 
-Enable {{< g 2fa "two-factor authentication" >}} everywhere it is available.
+Enable {{<g 2fa "two-factor authentication" >}} everywhere it is available.
 :   An attacker who gets your password still can't log in without your second
     factor. Use an authenticator app rather than SMS, which can be intercepted.
 
-Recognize {{< g phishing "phishing" >}}.
+Recognize {{<g phishing "phishing" >}}.
 :   A common attack is to trigger a password reset and then call the target
     pretending to be IT support—asking them to read back the confirmation code
     to "verify their identity." If you give them the code, they own your account.
@@ -62,7 +62,7 @@ authentication yourself.
 
 ## Least Privilege
 
-The {{< g least-privilege "principle of least privilege" >}} says that each
+The {{<g least-privilege "principle of least privilege" >}} says that each
 component of a system should have access to only what it needs and nothing more.
 In practice this means:
 
@@ -107,12 +107,13 @@ Know your institution's requirements.
 
 ## Security Theater
 
-Much of what gets called security is actually {{< g security-theater "security theater" >}}: practices that create the appearance of protection without
+Much of what gets called security is actually {{<g security-theater "security theater" >}}:
+practices that create the appearance of protection without
 meaningfully reducing risk. Requiring passwords to be changed every 90 days
 makes people choose worse passwords. Mandatory complex password rules ("must
 include a number, a capital letter, and a hieroglyph") produce passwords like
 "Password1!" that are in every attacker's dictionary.
-The predictable result is {{< g security-fatigue "security fatigue" >}}:
+The predictable result is {{<g security-fatigue "security fatigue" >}}:
 people stop caring about security precisely because the demands are unreasonable.
 
 Real security comes from a small number of practices applied consistently:

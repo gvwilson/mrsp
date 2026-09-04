@@ -6,10 +6,9 @@ subtitle: "they can't use something if they don't know it exists"
 
 ::: {.callout-note title="Learning Objectives"}
 
-
 -   Distinguish between marketing, sales, and support.
--   Write a one-paragraph description of your project aimed at a specific audience.
--   Identify one concrete action to make your project easier to find and adopt.
+-   Explain how a pitch differs from a list of features.
+-   Describe places people will look for your software.
 
 :::
 
@@ -164,41 +163,10 @@ Writing pitches for different audiences is practice for writing grant proposals.
     The specific "only we could write this" voice that persuades grant officers
     is precisely what LLMs average out.
 
-## Exercises
+## Exercises {.exercises}
 
+{{< exercise _three_pitches.qmd >}}
 
-### Write Three Pitches (12 min)
+{{< exercise _one_more_pitch.qmd >}}
 
-Prompt the LLM with something like this:
-
-> Write three one-paragraph descriptions of this research software project
-> for three different audiences:
-> (1) a graduate student in [field] looking for a tool,
-> (2) a senior researcher deciding whether to recommend it to their group, and
-> (3) a funding agency program officer.
-> The software does [one sentence].
-> Its main advantage over alternatives is [one sentence].
-
-Run the prompt,
-read each paragraph in the response,
-and check for factual errors.
-Does the "main advantage" actually match your software?
-
-### Write One More Pitch (5 min)
-
-Pick the one person you most need to reach.
-Rewrite that paragraph from scratch specifically for them.
-What do they actually care about?
-What would make them skeptical?
-What *don't* you know about how they will evaluate your project?
-
-
-
-### Objection Handling (8 min)
-
-Pair up.
-One person picks one of the three roles,
-reads the other person's statement,
-and asks a question or raises an objection that it doesn't answer.
-Switch roles and repeat the exercise,
-then rewrite your pitches.
+{{< exercise _objections.qmd >}}

@@ -1,0 +1,12 @@
+## The Alternative Offer (10 min) {.exercise}
+
+1.  Work in pairs.
+    One person plays a manager who has just asked for something unreasonable
+    (use a real example from your own work, or use Jess's situation).
+    The other person practices saying no by offering an alternative.
+    You cannot say "that's not possible" or "we don't have time";
+    you must frame your response as, "I can do [X] if we [trade-off]."
+
+1.  Repeat the exercise using an LLM as your manager.
+    What prompt did you give it?
+    Was its output useful for helping you practice for a real conversation?

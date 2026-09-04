@@ -1,0 +1,8 @@
+## Rewrite the Argument (10 min) {.exercise}
+
+Take a technical proposal you have made or plan to make.
+Rewrite the core argument for an audience that cares about something other than technical correctness.
+Do not use any technical terms your audience would not know.
+You must frame the proposal in terms of something they already care about,
+such as risk, cost, reputation, or timeline.
+Trade your proposal with a partner and exchange critiques.

@@ -1,0 +1,56 @@
+---
+title: Burnout
+subtitle: Managing Research Software Projects
+author: Greg Wilson
+date: 2026
+format: revealjs
+---
+
+## Learning Objectives {.objectives}
+
+-   Distinguish burnout from ordinary fatigue and underperformance.
+-   Describe research-specific drivers of burnout.
+-   Explain how to identify early warning signs in yourself and your team members.
+-   Describe steps a manager can take to prevent or correct burnout.
+
+## What Burnout Is
+
+-   Three dimensions: emotional exhaustion, depersonalization, reduced accomplishment.
+-   People who are simply tired recover with rest.
+-   People who are burned out do not, or not quickly.
+-   Burnout is a mismatch between what work demands and what it provides.
+
+## Three Groups to Watch
+
+-   Yourself: revise downward the expectation to do everything at pre-management level.
+-   Team members: maintenance burden accumulates silently and is rarely celebrated.
+-   External contributors: their burnout is invisible because they just stop showing up.
+-   Warning signs include fewer commits, shorter messages, and unusual hours.
+
+## Research-Specific Drivers
+
+-   Grant deadlines are fixed, immovable crunches that recur.
+-   Publication pressure creates a second deadline outside the sprint board.
+-   Postdoc job-search precarity runs in parallel with project crunches.
+-   Treating burnout as underperformance makes it worse.
+
+## What Managers Can Do
+
+-   Make maintenance work visible and allocate time for it.
+-   Protect time: 60-hour weeks accumulate a debt that gets called in later.
+-   Create explicit permission to not respond after hours.
+-   Plan for the end-of-grant crunch and agree what will not be done.
+-   Check in about workload, not just work.
+
+## What about AI?
+
+<ul>
+  <li class="yes">LLM triage can filter duplicates before they reach an overwhelmed maintainer</li>
+  <li class="no">LLMs cause expectation inflation: "why can't you just" on a bigger scale</li>
+  <li class="no">LLMs reach 80% quickly, but the remaining 20% produces cognitive exhaustion</li>
+</ul>
+
+```{.include}
+_sustainability.qmd
+_team_protection.qmd
+```

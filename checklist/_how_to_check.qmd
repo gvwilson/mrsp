@@ -1,0 +1,9 @@
+## How to Check (5 min) {.exercise}
+
+The list below gives specific things to look for when doing an audit of practices.
+Add three more,
+two of which cover areas that these three don't.
+
+-   Version control: a branch protection rule in GitHub.
+-   Code review: a rule requiring reviewers on PRs before merging.
+-   Testing: coverage reports checked into version control.
