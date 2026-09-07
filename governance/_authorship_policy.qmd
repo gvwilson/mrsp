@@ -9,10 +9,3 @@ Write two sentences for the "Authorship" section of your `CONTRIBUTING.md`:
     after the fact.
 -   Sentence 2:
     how someone who believes they have been omitted can raise the issue.
-
-Once this is done,
-prompt an LLM to look through the history of the project,
-including email archives and other discussions,
-and see who it thinks deserves credit.
-Note that this means sharing that history with the LLM:
-are you sure everyone in the discussions is comfortable doing that?

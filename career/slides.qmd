@@ -36,6 +36,5 @@ format: revealjs
 -   Advocating for recognition often matters more than giving advice.
 
 ```{.include}
-_career_conversation.qmd
 _advocacy_audit.qmd
 ```

@@ -15,3 +15,24 @@ and received ACM SIGSOFT's Influential Educator Award in 2020.
 ::: {.center}
 *start where you are &middot; use what you have &middot; help who you can*
 :::
+
+## Slides
+
+-   [Introduction](intro/slides.html)
+-   [Project Health](health/slides.html)
+-   [Checklists](checklist/slides.html)
+-   [Welcoming Newcomers](newcomers/slides.html)
+-   [Governance](governance/slides.html)
+-   [Marketing](marketing/slides.html)
+-   [Requirements](requirements/slides.html)
+-   [Performance and Growth](performance/slides.html)
+-   [Hiring and Firing](hirefire/slides.html)
+-   [Managing the Work](project/slides.html)
+-   [Managing Your Manager](upward/slides.html)
+-   [Psychological Safety](safety/slides.html)
+-   [Succession and Endings](lifecycle/slides.html)
+-   [Career Development](career/slides.html)
+-   [Remote Collaboration](remote/slides.html)
+-   [Burnout](burnout/slides.html)
+-   [Office Politics](politics/slides.html)
+-   [The Next 90 Days](finale/slides.html)

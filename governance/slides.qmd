@@ -73,7 +73,6 @@ format: revealjs
 </ul>
 
 ```{.include}
-_governance_statement.qmd
 _authorship_policy.qmd
 _stress_test.qmd
 ```
