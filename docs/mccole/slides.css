@@ -141,7 +141,7 @@
 .reveal blockquote {
   display: block;
   position: relative;
-  width: 70%;
+  width: 90%;
   margin: var(--r-block-margin) auto;
   font-style: italic;
 }
