@@ -18,14 +18,39 @@ format: revealjs
 -   Most research projects score poorly on these until someone complains.
 -   Use six dimensions to assess the state of your project.
 
-## Six Dimensions
+## 1. Findability
 
--   Findability: has a DOI, a `CITATION.cff` file, and registry listings.
--   Reproducibility: pinned dependencies, a virtual environment or container, and a rerun script.
--   Testability: automated tests run on every change via CI.
--   Contribution pathway: a `CONTRIBUTING.md` a stranger could follow.
--   Governance: written rules for who decides what.
--   Sustainability: more than one person can release, with a documented succession plan.
+-   Has a DOI
+-   Has a `CITATION.cff` file
+-   Is listed in package registries
+
+## 2. Reproducibility
+
+-   A setup specification (e.g., `pyproject.toml` or `requirements.txt`)
+-   A Makefile or similar to re-run standard analyses
+
+## 3. Testability
+
+-   Has tests
+-   With coverage
+-   That are run before commits locally
+-   And on the forge
+
+## 4. Contribution
+
+-   A `CONTRIBUTING.md` file
+-   That a stranger can follow
+-   On *their* machine
+
+## 5. Governance
+
+-   Written rules for who decides what
+-   That explain how people without a vote can raise concerns
+
+## 6. Sustainability
+
+-   More than one person can release
+-   A documented handover plan
 
 ## Dependencies Between Dimensions
 
