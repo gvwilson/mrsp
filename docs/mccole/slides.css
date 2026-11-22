@@ -141,7 +141,7 @@
 .reveal blockquote {
   display: block;
   position: relative;
-  width: 90%;
+  width: 70%;
   margin: var(--r-block-margin) auto;
   font-style: italic;
 }
@@ -165,6 +165,6 @@
   max-height: 95%;
 }
 
-h2.exercise { font-style: italic; }
-li.yes::marker { content: "✔ "; }
-li.no::marker { content: "✖ "; }
+.smaller {
+  font-size: 50%;
+}

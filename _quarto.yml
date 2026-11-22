@@ -1,6 +1,5 @@
-project:
-  type: book
-  output-dir: docs
+metadata-files:
+  - mccole/mccole.yml
 
 book:
   title: "Managing Research Software Projects"
@@ -32,28 +31,9 @@ book:
     - contributing/index.qmd
     - bibliography/index.qmd
     - glossary/index.qmd
+    - slides/index.qmd
     - retro/index.qmd
     - process/index.qmd
     - conflict/index.qmd
     - security/index.qmd
     - perfreview/index.qmd
-
-bibliography: bibliography/references.bib
-csl: mccole/book.csl
-
-filters:
-  - mccole/links.lua
-
-shortcodes:
-  - mccole/ex-book.lua
-  - mccole/glossary.lua
-  - mccole/inc-noh1.lua
-
-format:
-  html:
-    css: assets/book.css
-    link-citations: true
-    theme: cosmo
-    toc: true
-  pdf:
-    documentclass: mccole/krantz
