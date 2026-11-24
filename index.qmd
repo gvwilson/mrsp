@@ -1,4 +1,4 @@
-# Overview {.unnumbered}
+# {.unnumbered}
 
 This workshop introduces the ideas and tools you need
 to manage a team of up to a dozen people working together
