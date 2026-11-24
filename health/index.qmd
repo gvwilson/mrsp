@@ -1,10 +1,9 @@
 ---
 subtitle: "a baseline to start from"
 ---
-
 # Project Health
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Name the six dimensions of a minimum viable research software project.
 -   Score your own project on each dimension.

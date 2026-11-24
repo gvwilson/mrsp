@@ -1,10 +1,9 @@
 ---
 subtitle: "planning for endings before they're emergencies"
 ---
-
 # Succession and Endings
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Explain how to assess a project's lottery factor.
 -   Describe how a project should prepare for possible shutdown.

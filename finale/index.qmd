@@ -1,10 +1,9 @@
 ---
 subtitle: "long enough to finish something, short enough to be concrete"
 ---
-
 # The Next 90 Days
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Write a 90-day plan with three concrete priorities.
 -   Know what to read next.

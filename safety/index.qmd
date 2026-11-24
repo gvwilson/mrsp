@@ -1,10 +1,9 @@
 ---
 subtitle: "why your team won't tell you what you need to know"
 ---
-
 # Psychological Safety
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Describe what psychological safety is and why it predicts team performance.
 -   Identify specific behaviors that create or destroy it.

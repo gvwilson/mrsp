@@ -1,10 +1,9 @@
 ---
 subtitle: "most of your contributors have never been in the same room"
 ---
-
 # Remote Collaboration
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Identify the specific failure modes of distributed research software teams.
 -   Explain what async-first management means in practice.

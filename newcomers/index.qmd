@@ -1,10 +1,9 @@
 ---
 subtitle: "you only have one chance to make a first impression"
 ---
-
 # Welcoming Newcomers
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Explain why a `CONTRIBUTING.md` file matters even for a two-person project.
 -   Evaluate a `CONTRIBUTING.md` for a real newcomer's experience.

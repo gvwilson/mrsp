@@ -1,10 +1,9 @@
 ---
 subtitle: "they can't use something if they don't know it exists"
 ---
-
 # Marketing
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Distinguish between marketing, sales, and support.
 -   Explain how a pitch differs from a list of features.

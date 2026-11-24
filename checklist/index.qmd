@@ -1,10 +1,9 @@
 ---
 subtitle: "your job is to make sure"
 ---
-
 # Checklists
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Reframe individual-contributor technical practices as management responsibilities.
 -   Distinguish between claiming a practice is followed and having evidence it is followed.

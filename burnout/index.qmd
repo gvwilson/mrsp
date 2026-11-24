@@ -1,10 +1,9 @@
 ---
 subtitle: "the difference between tired and burned out matters"
 ---
-
 # Burnout
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Distinguish burnout from ordinary fatigue and underperformance.
 -   Describe research-specific drivers of burnout.

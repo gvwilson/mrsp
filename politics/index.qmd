@@ -1,10 +1,9 @@
 ---
 subtitle: "the game that happens whether you play or not"
 ---
-
 # Office Politics
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Recognize that every organization is political
     and that "we don't do politics here" is itself a political position.

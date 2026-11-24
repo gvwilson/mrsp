@@ -1,10 +1,9 @@
 ---
 subtitle: "making decisions together"
 ---
-
 # Governance
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Describe two ways informal decision-making fails as projects grow.
 -   Describe Martha's Rules and explain when they are appropriate.

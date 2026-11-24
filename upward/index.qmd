@@ -1,10 +1,9 @@
 ---
 subtitle: "the relationship that controls your freedom to act"
 ---
-
 # Managing Your Manager
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Describe three practices for managing your manager.
 

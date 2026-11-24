@@ -1,10 +1,9 @@
 ---
 subtitle: "growth that the institution hasn't named yet"
 ---
-
 # Career Development
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Describe what career growth means for someone on a research software track.
 -   Describe what a useful career conversation covers.

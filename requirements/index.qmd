@@ -1,10 +1,9 @@
 ---
 subtitle: "figuring out what people actually need"
 ---
-
 # Requirements
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Distinguish between a feature request and an underlying need.
 -   Explain how to prioritize a backlog of work.

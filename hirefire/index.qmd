@@ -1,10 +1,9 @@
 ---
 subtitle: "the decisions that define your team"
 ---
-
 # Hiring and Firing
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Describe the most common mistakes in hiring for a research software position.
 -   Understand why and how to create a structured onboarding plan.

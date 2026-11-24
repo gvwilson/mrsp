@@ -1,10 +1,9 @@
 ---
 subtitle: "helping people do their best work"
 ---
-
 # Performance and Growth
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Know how to give specific, actionable feedback using Situation/Behavior/Impact.
 -   Explain why regular one-to-one meetings are more useful than annual performance reviews.

@@ -1,10 +1,9 @@
 ---
 subtitle: "knowing who is doing what and what is in their way"
 ---
-
 # Managing the Work
 
-::: {.callout-note title="Learning Objectives"}
+::: {.syllabus}
 
 -   Explain what "project management" looks like for a small research team.
 -   Describe the progress/plans/problems format for status reports.
