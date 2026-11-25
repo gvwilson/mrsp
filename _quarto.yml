@@ -4,7 +4,6 @@ metadata-files:
 book:
   title: "Managing Research Software Projects"
   repo-url: "https://github.com/gvwilson/mrsp"
-  repo-actions: [edit, source, issue]
   chapters:
     - index.qmd
     - intro/index.qmd
