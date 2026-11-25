@@ -70,6 +70,8 @@ The second meaning is that the people in the winning coalition have already gott
 from the current structure, so there is no need for them to engage in visible political activity.
 Describing existing arrangements as natural and political contestation as illegitimate
 is itself a political move [@Crick2000].
+You can use {{<g power-mapping "power mapping" >}} to figure out
+who actually has power.
 
 :::
 
@@ -94,6 +96,13 @@ in the absence of shared goals.
 The person who refuses to do any of this and then wonders why their ideas never get adopted
 is not taking the moral high road.
 They are making a practical error while feeling virtuous about it.
+
+::: {.note}
+
+If you *do* decide you want to try to change your workplace,
+[@Manns2015] is a good place to start.
+
+:::
 
 ## After
 
