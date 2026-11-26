@@ -99,6 +99,14 @@ A brief weekly email summarizing what’s done, what’s in progress, and what�
     <a class="pager-link next" href="../safety/index.html">Psychological Safety →</a>
   </nav>
 </footer>
+<script>
+document.addEventListener('click', function (e) {
+  var link = e.target.closest && e.target.closest('a');
+  document.querySelectorAll('details.topnav-dropdown[open]').forEach(function (d) {
+    if (!d.contains(e.target) || (link && d.contains(link))) d.removeAttribute('open');
+  });
+});
+</script>
 
 
 </body></html>

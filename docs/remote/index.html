@@ -123,6 +123,14 @@ Skiles, Matthew, Euijin Yang, Orad Reshef, et al. 2021. <span>“Conference Demo
     <a class="pager-link next" href="../burnout/index.html">Burnout →</a>
   </nav>
 </footer>
+<script>
+document.addEventListener('click', function (e) {
+  var link = e.target.closest && e.target.closest('a');
+  document.querySelectorAll('details.topnav-dropdown[open]').forEach(function (d) {
+    if (!d.contains(e.target) || (link && d.contains(link))) d.removeAttribute('open');
+  });
+});
+</script>
 
 
 </body></html>

@@ -139,6 +139,14 @@ Wenger, Etienne. 1999. <em>Communities of Practice: Learning, Meaning, and Ident
     <a class="pager-link next" href="../governance/index.html">Governance →</a>
   </nav>
 </footer>
+<script>
+document.addEventListener('click', function (e) {
+  var link = e.target.closest && e.target.closest('a');
+  document.querySelectorAll('details.topnav-dropdown[open]').forEach(function (d) {
+    if (!d.contains(e.target) || (link && d.contains(link))) d.removeAttribute('open');
+  });
+});
+</script>
 
 
 </body></html>

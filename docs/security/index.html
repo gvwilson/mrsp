@@ -115,6 +115,14 @@ Smalls, Danielle, and Greg Wilson. 2021. <span>“Ten Quick Tips for Staying Saf
     <a class="pager-link next" href="../perfreview/index.html">Performance Review Counterexamples →</a>
   </nav>
 </footer>
+<script>
+document.addEventListener('click', function (e) {
+  var link = e.target.closest && e.target.closest('a');
+  document.querySelectorAll('details.topnav-dropdown[open]').forEach(function (d) {
+    if (!d.contains(e.target) || (link && d.contains(link))) d.removeAttribute('open');
+  });
+});
+</script>
 
 
 </body></html>

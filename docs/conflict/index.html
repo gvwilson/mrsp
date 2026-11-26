@@ -102,6 +102,14 @@ Aurora, Valerie, and Mary Gardiner. 2019. <em>How to Respond to Code of Conduct 
     <a class="pager-link next" href="../security/index.html">Security →</a>
   </nav>
 </footer>
+<script>
+document.addEventListener('click', function (e) {
+  var link = e.target.closest && e.target.closest('a');
+  document.querySelectorAll('details.topnav-dropdown[open]').forEach(function (d) {
+    if (!d.contains(e.target) || (link && d.contains(link))) d.removeAttribute('open');
+  });
+});
+</script>
 
 
 </body></html>

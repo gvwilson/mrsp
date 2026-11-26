@@ -90,6 +90,14 @@ Forsgren, Nicole, Jez Humble, and Gene Kim. 2018. <em>Accelerate: The Science of
     <a class="pager-link next" href="../conflict/index.html">Managing Conflict →</a>
   </nav>
 </footer>
+<script>
+document.addEventListener('click', function (e) {
+  var link = e.target.closest && e.target.closest('a');
+  document.querySelectorAll('details.topnav-dropdown[open]').forEach(function (d) {
+    if (!d.contains(e.target) || (link && d.contains(link))) d.removeAttribute('open');
+  });
+});
+</script>
 
 
 </body></html>

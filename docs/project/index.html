@@ -116,6 +116,14 @@ Fournier, Camille. 2017. <em>The Manager’s Path</em>. O’Reilly. ISBN 9781491
     <a class="pager-link next" href="../upward/index.html">Managing Your Manager →</a>
   </nav>
 </footer>
+<script>
+document.addEventListener('click', function (e) {
+  var link = e.target.closest && e.target.closest('a');
+  document.querySelectorAll('details.topnav-dropdown[open]').forEach(function (d) {
+    if (!d.contains(e.target) || (link && d.contains(link))) d.removeAttribute('open');
+  });
+});
+</script>
 
 
 </body></html>
