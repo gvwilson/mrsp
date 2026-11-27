@@ -1,14 +1,18 @@
-/* Base */
 body {
   margin: 0;
   font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
   line-height: 1.6;
   color: #212529;
   background: #ffffff;
 }
 
+h3 {
+  font-style: italic;
+}
+
 main.content {
-  max-width: 46rem;
+  max-width: 60rem;
   margin: 0 auto;
   padding: 4.5rem 1rem 2rem 1rem;
 }
@@ -108,24 +112,6 @@ a.topnav-item:hover {
   background: #f1f3f5;
 }
 
-/* Content */
-.center {
-  text-align: center;
-}
-
-.right {
-  text-align: right;
-}
-
-dt {
-  display: block;
-}
-
-dd {
-  display: block;
-  margin: 0 0 0 1rem;
-}
-
 /* Bibliography */
 .hanging-indent .csl-entry {
   margin-left: 2em;
@@ -197,15 +183,6 @@ pre {
   margin-bottom: 0;
 }
 
-/* Blockquotes */
-blockquote cite {
-  display: block;
-}
-
-blockquote cite::before {
-  content: "— ";
-}
-
 /* Page footer (previous/next pager) */
 .page-footer {
   max-width: 46rem;
@@ -220,27 +197,3 @@ blockquote cite::before {
 .pager .next {
   margin-left: auto;
 }
-
-/* Flex grid (12-column) */
-.row {
-  display: flex;
-  flex-flow: row wrap;
-  width: 100%;
-}
-
-.row > * {
-  flex: 1;
-}
-
-.col-1 { flex-basis: 8.33%; }
-.col-2 { flex-basis: 16.66%; }
-.col-3 { flex-basis: 25%; }
-.col-4 { flex-basis: 33.33%; }
-.col-5 { flex-basis: 41.66%; }
-.col-6 { flex-basis: 50%; }
-.col-7 { flex-basis: 58.33%; }
-.col-8 { flex-basis: 66.66%; }
-.col-9 { flex-basis: 75%; }
-.col-10 { flex-basis: 83.33%; }
-.col-11 { flex-basis: 91.66%; }
-.col-12 { flex-basis: 100%; }
